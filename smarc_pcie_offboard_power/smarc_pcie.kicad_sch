@@ -1,0 +1,382 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c081980d-49b2-44a7-8b5b-5f80549301c3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 29.21 129.54)
+		(size 48.26 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "03132480-5043-438d-826b-cc5650ba5002")
+		(property "Sheetname" "USB 3.0"
+			(at 29.21 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB3.kicad_sch"
+			(at 29.21 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "smarc_pcie"
+				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 129.54)
+		(size 43.18 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "13c3d72f-61b5-4ea8-9910-43f8b37490cb")
+		(property "Sheetname" "GPIO"
+			(at 96.52 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPIO.kicad_sch"
+			(at 96.52 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "smarc_pcie"
+				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 74.93)
+		(size 48.26 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "31f20ea0-4518-4395-8ebf-7d466529d276")
+		(property "Sheetname" "x16 Card Slot"
+			(at 27.94 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "x16_Card_Slot.kicad_sch"
+			(at 27.94 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "smarc_pcie"
+				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 106.68)
+		(size 48.26 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "80cd2927-fd60-4af3-b536-f4b79f6d2098")
+		(property "Sheetname" "USB 3.0 Power"
+			(at 29.21 105.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB3_Power.kicad_sch"
+			(at 29.21 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "smarc_pcie"
+				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 38.1)
+		(size 49.53 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "94890e56-b635-4351-9071-a6f928476ad7")
+		(property "Sheetname" "Power Sequence"
+			(at 93.98 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Sequence.kicad_sch"
+			(at 93.98 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "smarc_pcie"
+				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 154.94)
+		(size 48.26 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9832172c-46bd-4e96-ab7b-d91ac5266efa")
+		(property "Sheetname" "uSD-CARD"
+			(at 29.21 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Micro_SD.kicad_sch"
+			(at 29.21 174.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "smarc_pcie"
+				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 106.68)
+		(size 43.18 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ca65e134-9914-4609-bcf0-9d5f35b2e960")
+		(property "Sheetname" "Display Port"
+			(at 96.52 105.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DisplayPort.kicad_sch"
+			(at 96.52 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "smarc_pcie"
+				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 38.1)
+		(size 48.26 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fb428e35-e15d-4824-aad1-df639cde136f")
+		(property "Sheetname" "Power Supply"
+			(at 27.94 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 27.94 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "smarc_pcie"
+				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

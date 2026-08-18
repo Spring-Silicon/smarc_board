@@ -1,0 +1,1566 @@
+{
+  "baseline": {
+    "commit": "8be1328adb24ee6556a76847c1f46d91a19aa0f7",
+    "entrypoint": "components/Texas_Instruments/TPS51225B/SMARC_5V_3V3.zen",
+    "package": "code.diode.computer/spring/registry/components/Texas_Instruments/TPS51225B",
+    "pcb_version": "pcbc 0.4.29",
+    "version": "0.1.0"
+  },
+  "commands": {
+    "interface_normalizations": [
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PC20.C"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PC27.C"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PC31.C"
+      },
+      {
+        "kind": "polarized-interface",
+        "mapping": {
+          "P1": "POS",
+          "P2": "NEG"
+        },
+        "path": "PTC21.C"
+      },
+      {
+        "kind": "polarized-interface",
+        "mapping": {
+          "P1": "POS",
+          "P2": "NEG"
+        },
+        "path": "PTC23.C"
+      },
+      {
+        "kind": "polarized-interface",
+        "mapping": {
+          "P1": "POS",
+          "P2": "NEG"
+        },
+        "path": "PTC24.C"
+      },
+      {
+        "kind": "polarized-interface",
+        "mapping": {
+          "P1": "POS",
+          "P2": "NEG"
+        },
+        "path": "PTC25.C"
+      },
+      {
+        "kind": "polarized-interface",
+        "mapping": {
+          "P1": "POS",
+          "P2": "NEG"
+        },
+        "path": "PTC26.C"
+      },
+      {
+        "kind": "polarized-interface",
+        "mapping": {
+          "P1": "POS",
+          "P2": "NEG"
+        },
+        "path": "PTC27.C"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PL1.L"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PL3.L"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR1.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR11.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR12.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR13.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR14.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR15.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR16.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR4.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR6.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR7.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR8.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "PR9.R"
+      }
+    ],
+    "local_import": {
+      "errors": 8,
+      "generated_zen": "/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/power-supply-identity-tv3j8keg/imported/Power_Supply.zen",
+      "returncode": 0,
+      "tail": "\u2502 schematic.erc.pin_not_connected       3                   -                   \u2502\n\u2502 schematic.erc.power_pin_not_driven    5                   -                   \u2502\n\u2502 Total                                 8                   12                  \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\nWarning: KiCad ERC/DRC reported 8 errors; these do not block import.\nWarning: 74 component(s) have unresolved footprints: <missing footprint>, R0603. The board imported with connectivity intact but is not layout-ready.\nPassive detection (2-pad only): R=0 (h:0 m:0 l:0), C=0 (h:0 m:0 l:0), unknown:0, known-non-2-pad:0, pad-count-unknown:74\nValidated generated Zener against 31 physical-pin partition(s)\nWrote imported board to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/power-supply-identity-tv3j8keg/imported/Power_Supply.zen\nWrote import extraction report to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/power-supply-identity-tv3j8keg/imported/.kicad.import.extraction.json\nWrote import validation diagnostics to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/power-supply-identity-tv3j8keg/imported/.kicad.validation.diagnostics.json",
+      "warnings": 14
+    },
+    "reference_bom": {
+      "command": "pcb bom --offline --format json /private/tmp/tps51225b-v0.1.0.tGwOrY/registry/components/Texas_Instruments/TPS51225B/SMARC_5V_3V3.zen",
+      "component_count": 74
+    },
+    "reference_validation": {
+      "command": "pcb build --offline --diagnostics - /private/tmp/tps51225b-v0.1.0.tGwOrY/registry/components/Texas_Instruments/TPS51225B/SMARC_5V_3V3.zen",
+      "output": "\u2713 SMARC_5V_3V3.zen (74 components)\n{\n  \"components/Texas_Instruments/TPS51225B/SMARC_5V_3V3.zen\": []\n}"
+    },
+    "temporary_reference_renames": {
+      "flattened_root_uuid": "c3e18292-0f1d-42e2-9c5d-14fd9baf2936",
+      "instance_path_replacements": 94,
+      "project_replacements": 94,
+      "renames": [
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC2764",
+          "temporary_reference": "C39"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC2765",
+          "temporary_reference": "C40"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC2766",
+          "temporary_reference": "C41"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC2767",
+          "temporary_reference": "C42"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PTC21",
+          "temporary_reference": "C43"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PTC23",
+          "temporary_reference": "C44"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PTC24",
+          "temporary_reference": "C45"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PTC25",
+          "temporary_reference": "C46"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PTC26",
+          "temporary_reference": "C47"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PTC27",
+          "temporary_reference": "C48"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC11",
+          "temporary_reference": "C10"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC12",
+          "temporary_reference": "C11"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC13",
+          "temporary_reference": "C12"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC14",
+          "temporary_reference": "C13"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC15",
+          "temporary_reference": "C14"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC16",
+          "temporary_reference": "C15"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC17",
+          "temporary_reference": "C16"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC18",
+          "temporary_reference": "C17"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC19",
+          "temporary_reference": "C18"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC20",
+          "temporary_reference": "C19"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC25",
+          "temporary_reference": "C20"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC26",
+          "temporary_reference": "C21"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC27",
+          "temporary_reference": "C22"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC28",
+          "temporary_reference": "C23"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC29",
+          "temporary_reference": "C24"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC30",
+          "temporary_reference": "C25"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC31",
+          "temporary_reference": "C26"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC32",
+          "temporary_reference": "C27"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC33",
+          "temporary_reference": "C28"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC34",
+          "temporary_reference": "C29"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC35",
+          "temporary_reference": "C30"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC36",
+          "temporary_reference": "C31"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC37",
+          "temporary_reference": "C32"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC38",
+          "temporary_reference": "C33"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC39",
+          "temporary_reference": "C34"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC40",
+          "temporary_reference": "C35"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC41",
+          "temporary_reference": "C36"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC42",
+          "temporary_reference": "C37"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC43",
+          "temporary_reference": "C38"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR10",
+          "temporary_reference": "R10"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR11",
+          "temporary_reference": "R11"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR12",
+          "temporary_reference": "R12"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR13",
+          "temporary_reference": "R13"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR14",
+          "temporary_reference": "R14"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR15",
+          "temporary_reference": "R15"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR16",
+          "temporary_reference": "R16"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR17",
+          "temporary_reference": "R17"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR18",
+          "temporary_reference": "R18"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC1",
+          "temporary_reference": "C1"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC2",
+          "temporary_reference": "C2"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC3",
+          "temporary_reference": "C3"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC4",
+          "temporary_reference": "C4"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC5",
+          "temporary_reference": "C5"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC6",
+          "temporary_reference": "C6"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC7",
+          "temporary_reference": "C7"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC8",
+          "temporary_reference": "C8"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PC9",
+          "temporary_reference": "C9"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PL1",
+          "temporary_reference": "L1"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PL2",
+          "temporary_reference": "L2"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PL3",
+          "temporary_reference": "L3"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR1",
+          "temporary_reference": "R1"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR2",
+          "temporary_reference": "R2"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR3",
+          "temporary_reference": "R3"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR4",
+          "temporary_reference": "R4"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR5",
+          "temporary_reference": "R5"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR6",
+          "temporary_reference": "R6"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR7",
+          "temporary_reference": "R7"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR8",
+          "temporary_reference": "R8"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PR9",
+          "temporary_reference": "R9"
+        },
+        {
+          "instance_replacements": 1,
+          "property_replacements": 1,
+          "source_reference": "PU1",
+          "temporary_reference": "U1"
+        }
+      ],
+      "temporary_file": "/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/power-supply-identity-tv3j8keg/Power_Supply.kicad_sch"
+    }
+  },
+  "components": {
+    "advisories": [
+      {
+        "actual": "R0603",
+        "expected": "0603",
+        "field": "package",
+        "path": "PR17.R"
+      },
+      {
+        "actual": "R0603",
+        "expected": "0603",
+        "field": "package",
+        "path": "PR18.R"
+      },
+      {
+        "actual": "R0603",
+        "expected": "0603",
+        "field": "package",
+        "path": "PR3.R"
+      },
+      {
+        "actual": "R0603",
+        "expected": "0603",
+        "field": "package",
+        "path": "PR4.R"
+      },
+      {
+        "actual": "R0603",
+        "expected": "0603",
+        "field": "package",
+        "path": "PR5.R"
+      },
+      {
+        "actual": "R0603",
+        "expected": "0603",
+        "field": "package",
+        "path": "PR9.R"
+      }
+    ],
+    "differences": [
+      {
+        "actual": null,
+        "expected": "EEFCX0J151YR",
+        "field": "mpn",
+        "path": "PTC21.C"
+      },
+      {
+        "actual": null,
+        "expected": "EEFCX0J151YR",
+        "field": "mpn",
+        "path": "PTC23.C"
+      },
+      {
+        "actual": null,
+        "expected": "EEFCX0J151YR",
+        "field": "mpn",
+        "path": "PTC24.C"
+      },
+      {
+        "actual": null,
+        "expected": "EEFCX0J151YR",
+        "field": "mpn",
+        "path": "PTC25.C"
+      },
+      {
+        "actual": null,
+        "expected": "EEFCX0J151YR",
+        "field": "mpn",
+        "path": "PTC26.C"
+      },
+      {
+        "actual": null,
+        "expected": "EEFCX0J151YR",
+        "field": "mpn",
+        "path": "PTC27.C"
+      }
+    ],
+    "extra_in_local": [],
+    "local_count": 74,
+    "missing_from_local": [],
+    "reference_count": 74
+  },
+  "connectivity": {
+    "differences": [],
+    "extra_in_local": [],
+    "local_conflicts": [],
+    "local_endpoint_count": 171,
+    "local_nets": {
+      "named:GND": [
+        "PC1.C:P2",
+        "PC11.C:P2",
+        "PC12.C:P2",
+        "PC13.C:P2",
+        "PC14.C:P2",
+        "PC15.C:P2",
+        "PC16.C:P2",
+        "PC17.C:P2",
+        "PC18.C:P2",
+        "PC2.C:P2",
+        "PC25.C:P2",
+        "PC26.C:P2",
+        "PC27.C:P2",
+        "PC2764.C:P2",
+        "PC2765.C:P2",
+        "PC2766.C:P2",
+        "PC2767.C:P2",
+        "PC28.C:P2",
+        "PC29.C:P2",
+        "PC3.C:P2",
+        "PC30.C:P2",
+        "PC32.C:P2",
+        "PC33.C:P2",
+        "PC34.C:P2",
+        "PC36.C:P2",
+        "PC37.C:P2",
+        "PC38.C:P2",
+        "PC39.C:P2",
+        "PC4.C:P2",
+        "PC40.C:P2",
+        "PC41.C:P2",
+        "PC42.C:P2",
+        "PC43.C:P2",
+        "PC5.C:P2",
+        "PC6.C:P2",
+        "PC7.C:P2",
+        "PC8.C:P2",
+        "PC9.C:P2",
+        "PQ3.Q:S",
+        "PQ4.Q:S",
+        "PR11.R:P2",
+        "PR12.R:P2",
+        "PR15.R:P2",
+        "PR16.R:P2",
+        "PTC21.C:NEG",
+        "PTC23.C:NEG",
+        "PTC24.C:NEG",
+        "PTC25.C:NEG",
+        "PTC26.C:NEG",
+        "PTC27.C:NEG",
+        "PU1:EP"
+      ],
+      "named:P_+3V3_5V_A_PG": [
+        "PR1.R:P2",
+        "PU1:PGOOD"
+      ],
+      "named:P_+3V3_A": [
+        "PC31.C:P1",
+        "PC32.C:P1",
+        "PC33.C:P1",
+        "PC34.C:P1",
+        "PC41.C:P1",
+        "PC42.C:P1",
+        "PC43.C:P1",
+        "PL2.L:P2",
+        "PR9.R:P1",
+        "PTC21.C:POS",
+        "PTC27.C:POS"
+      ],
+      "named:P_+3V3_BST_20": [
+        "PR5.R:P1",
+        "PU1:VBST2"
+      ],
+      "named:P_+3V3_BST_RC_20": [
+        "PC19.C:P1",
+        "PR5.R:P2"
+      ],
+      "named:P_+3V3_CS2": [
+        "PR16.R:P1",
+        "PU1:CS2"
+      ],
+      "named:P_+3V3_EN_R": [
+        "PR14.R:P2",
+        "PR18.R:P1",
+        "PU1:EN2"
+      ],
+      "named:P_+3V3_FB": [
+        "PC31.C:P2",
+        "PR12.R:P1",
+        "PR9.R:P2",
+        "PU1:VFB2"
+      ],
+      "named:P_+3V3_HG_20": [
+        "PR3.R:P1",
+        "PU1:DRVH2"
+      ],
+      "named:P_+3V3_HG_R": [
+        "PQ2.Q:G",
+        "PR3.R:P2"
+      ],
+      "named:P_+3V3_LG_20": [
+        "PQ3.Q:G",
+        "PU1:DRVL2"
+      ],
+      "named:P_+3V3_SNB": [
+        "PC25.C:P1",
+        "PR7.R:P2"
+      ],
+      "named:P_+3V3_SW": [
+        "PC19.C:P2",
+        "PL2.L:P1",
+        "PQ2.Q:S",
+        "PQ3.Q:D",
+        "PR7.R:P1",
+        "PU1:SW2"
+      ],
+      "named:P_+5V_3V3_VIN": [
+        "PC18.C:P1",
+        "PR2.R:P2",
+        "PU1:VIN"
+      ],
+      "named:P_+5V_3V3_VINFIT": [
+        "PC1.C:P1",
+        "PC11.C:P1",
+        "PC12.C:P1",
+        "PC13.C:P1",
+        "PC14.C:P1",
+        "PC15.C:P1",
+        "PC16.C:P1",
+        "PC17.C:P1",
+        "PC2.C:P1",
+        "PC2764.C:P1",
+        "PC2765.C:P1",
+        "PC2766.C:P1",
+        "PC2767.C:P1",
+        "PC3.C:P1",
+        "PC4.C:P1",
+        "PC5.C:P1",
+        "PC6.C:P1",
+        "PC7.C:P1",
+        "PC8.C:P1",
+        "PC9.C:P1",
+        "PL1.L:P2",
+        "PQ1.Q:D",
+        "PQ2.Q:D",
+        "PR2.R:P1"
+      ],
+      "named:P_+5V_A": [
+        "PC27.C:P1",
+        "PC28.C:P1",
+        "PC29.C:P1",
+        "PC30.C:P1",
+        "PC35.C:P1",
+        "PC38.C:P1",
+        "PC39.C:P1",
+        "PC40.C:P1",
+        "PL3.L:P2",
+        "PR10.R:P1",
+        "PTC23.C:POS",
+        "PTC24.C:POS",
+        "PTC25.C:POS",
+        "PTC26.C:POS",
+        "PU1:VO1"
+      ],
+      "named:P_+5V_BST_20": [
+        "PR6.R:P1",
+        "PU1:VBST1"
+      ],
+      "named:P_+5V_BST_RC_20": [
+        "PC20.C:P1",
+        "PR6.R:P2"
+      ],
+      "named:P_+5V_CS1": [
+        "PR15.R:P1",
+        "PU1:CS1"
+      ],
+      "named:P_+5V_EN_R": [
+        "PR13.R:P2",
+        "PR17.R:P1",
+        "PU1:EN1"
+      ],
+      "named:P_+5V_FB": [
+        "PC35.C:P2",
+        "PR10.R:P2",
+        "PR11.R:P1",
+        "PU1:VFB1"
+      ],
+      "named:P_+5V_HG_20": [
+        "PR4.R:P1",
+        "PU1:DRVH1"
+      ],
+      "named:P_+5V_HG_20_R": [
+        "PQ1.Q:G",
+        "PR4.R:P2"
+      ],
+      "named:P_+5V_LG_20": [
+        "PQ4.Q:G",
+        "PU1:DRVL1"
+      ],
+      "named:P_+5V_SNB": [
+        "PC26.C:P1",
+        "PR8.R:P2"
+      ],
+      "named:P_+5V_SW_S": [
+        "PC20.C:P2",
+        "PL3.L:P1",
+        "PQ1.Q:S",
+        "PQ4.Q:D",
+        "PR8.R:P1",
+        "PU1:SW1"
+      ],
+      "named:P_3V3_LDO": [
+        "PC36.C:P1",
+        "PR1.R:P1",
+        "PR13.R:P1",
+        "PR14.R:P1",
+        "PU1:VREG3"
+      ],
+      "named:P_5V_LDO": [
+        "PC37.C:P1",
+        "PU1:VREG5"
+      ],
+      "named:S_CB_PWR_ON": [
+        "PR17.R:P2",
+        "PR18.R:P2"
+      ],
+      "named:VIN_9~19V": [
+        "PL1.L:P1"
+      ],
+      "not_connected": [
+        "PU1:VCLK"
+      ]
+    },
+    "missing_from_local": [],
+    "net_name_differences": [],
+    "reference_conflicts": [],
+    "reference_endpoint_count": 171,
+    "reference_nets": {
+      "named:GND": [
+        "PC1.C:P2",
+        "PC11.C:P2",
+        "PC12.C:P2",
+        "PC13.C:P2",
+        "PC14.C:P2",
+        "PC15.C:P2",
+        "PC16.C:P2",
+        "PC17.C:P2",
+        "PC18.C:P2",
+        "PC2.C:P2",
+        "PC25.C:P2",
+        "PC26.C:P2",
+        "PC27.C:P2",
+        "PC2764.C:P2",
+        "PC2765.C:P2",
+        "PC2766.C:P2",
+        "PC2767.C:P2",
+        "PC28.C:P2",
+        "PC29.C:P2",
+        "PC3.C:P2",
+        "PC30.C:P2",
+        "PC32.C:P2",
+        "PC33.C:P2",
+        "PC34.C:P2",
+        "PC36.C:P2",
+        "PC37.C:P2",
+        "PC38.C:P2",
+        "PC39.C:P2",
+        "PC4.C:P2",
+        "PC40.C:P2",
+        "PC41.C:P2",
+        "PC42.C:P2",
+        "PC43.C:P2",
+        "PC5.C:P2",
+        "PC6.C:P2",
+        "PC7.C:P2",
+        "PC8.C:P2",
+        "PC9.C:P2",
+        "PQ3.Q:S",
+        "PQ4.Q:S",
+        "PR11.R:P2",
+        "PR12.R:P2",
+        "PR15.R:P2",
+        "PR16.R:P2",
+        "PTC21.C:NEG",
+        "PTC23.C:NEG",
+        "PTC24.C:NEG",
+        "PTC25.C:NEG",
+        "PTC26.C:NEG",
+        "PTC27.C:NEG",
+        "PU1:EP"
+      ],
+      "named:P_+3V3_5V_A_PG": [
+        "PR1.R:P2",
+        "PU1:PGOOD"
+      ],
+      "named:P_+3V3_A": [
+        "PC31.C:P1",
+        "PC32.C:P1",
+        "PC33.C:P1",
+        "PC34.C:P1",
+        "PC41.C:P1",
+        "PC42.C:P1",
+        "PC43.C:P1",
+        "PL2.L:P2",
+        "PR9.R:P1",
+        "PTC21.C:POS",
+        "PTC27.C:POS"
+      ],
+      "named:P_+3V3_BST_20": [
+        "PR5.R:P1",
+        "PU1:VBST2"
+      ],
+      "named:P_+3V3_BST_RC_20": [
+        "PC19.C:P1",
+        "PR5.R:P2"
+      ],
+      "named:P_+3V3_CS2": [
+        "PR16.R:P1",
+        "PU1:CS2"
+      ],
+      "named:P_+3V3_EN_R": [
+        "PR14.R:P2",
+        "PR18.R:P1",
+        "PU1:EN2"
+      ],
+      "named:P_+3V3_FB": [
+        "PC31.C:P2",
+        "PR12.R:P1",
+        "PR9.R:P2",
+        "PU1:VFB2"
+      ],
+      "named:P_+3V3_HG_20": [
+        "PR3.R:P1",
+        "PU1:DRVH2"
+      ],
+      "named:P_+3V3_HG_R": [
+        "PQ2.Q:G",
+        "PR3.R:P2"
+      ],
+      "named:P_+3V3_LG_20": [
+        "PQ3.Q:G",
+        "PU1:DRVL2"
+      ],
+      "named:P_+3V3_SNB": [
+        "PC25.C:P1",
+        "PR7.R:P2"
+      ],
+      "named:P_+3V3_SW": [
+        "PC19.C:P2",
+        "PL2.L:P1",
+        "PQ2.Q:S",
+        "PQ3.Q:D",
+        "PR7.R:P1",
+        "PU1:SW2"
+      ],
+      "named:P_+5V_3V3_VIN": [
+        "PC18.C:P1",
+        "PR2.R:P2",
+        "PU1:VIN"
+      ],
+      "named:P_+5V_3V3_VINFIT": [
+        "PC1.C:P1",
+        "PC11.C:P1",
+        "PC12.C:P1",
+        "PC13.C:P1",
+        "PC14.C:P1",
+        "PC15.C:P1",
+        "PC16.C:P1",
+        "PC17.C:P1",
+        "PC2.C:P1",
+        "PC2764.C:P1",
+        "PC2765.C:P1",
+        "PC2766.C:P1",
+        "PC2767.C:P1",
+        "PC3.C:P1",
+        "PC4.C:P1",
+        "PC5.C:P1",
+        "PC6.C:P1",
+        "PC7.C:P1",
+        "PC8.C:P1",
+        "PC9.C:P1",
+        "PL1.L:P2",
+        "PQ1.Q:D",
+        "PQ2.Q:D",
+        "PR2.R:P1"
+      ],
+      "named:P_+5V_A": [
+        "PC27.C:P1",
+        "PC28.C:P1",
+        "PC29.C:P1",
+        "PC30.C:P1",
+        "PC35.C:P1",
+        "PC38.C:P1",
+        "PC39.C:P1",
+        "PC40.C:P1",
+        "PL3.L:P2",
+        "PR10.R:P1",
+        "PTC23.C:POS",
+        "PTC24.C:POS",
+        "PTC25.C:POS",
+        "PTC26.C:POS",
+        "PU1:VO1"
+      ],
+      "named:P_+5V_BST_20": [
+        "PR6.R:P1",
+        "PU1:VBST1"
+      ],
+      "named:P_+5V_BST_RC_20": [
+        "PC20.C:P1",
+        "PR6.R:P2"
+      ],
+      "named:P_+5V_CS1": [
+        "PR15.R:P1",
+        "PU1:CS1"
+      ],
+      "named:P_+5V_EN_R": [
+        "PR13.R:P2",
+        "PR17.R:P1",
+        "PU1:EN1"
+      ],
+      "named:P_+5V_FB": [
+        "PC35.C:P2",
+        "PR10.R:P2",
+        "PR11.R:P1",
+        "PU1:VFB1"
+      ],
+      "named:P_+5V_HG_20": [
+        "PR4.R:P1",
+        "PU1:DRVH1"
+      ],
+      "named:P_+5V_HG_20_R": [
+        "PQ1.Q:G",
+        "PR4.R:P2"
+      ],
+      "named:P_+5V_LG_20": [
+        "PQ4.Q:G",
+        "PU1:DRVL1"
+      ],
+      "named:P_+5V_SNB": [
+        "PC26.C:P1",
+        "PR8.R:P2"
+      ],
+      "named:P_+5V_SW_S": [
+        "PC20.C:P2",
+        "PL3.L:P1",
+        "PQ1.Q:S",
+        "PQ4.Q:D",
+        "PR8.R:P1",
+        "PU1:SW1"
+      ],
+      "named:P_3V3_LDO": [
+        "PC36.C:P1",
+        "PR1.R:P1",
+        "PR13.R:P1",
+        "PR14.R:P1",
+        "PU1:VREG3"
+      ],
+      "named:P_5V_LDO": [
+        "PC37.C:P1",
+        "PU1:VREG5"
+      ],
+      "named:S_CB_PWR_ON": [
+        "PR17.R:P2",
+        "PR18.R:P2"
+      ],
+      "named:VIN_9~19V": [
+        "PL1.L:P1"
+      ],
+      "not_connected": [
+        "PU1:VCLK"
+      ]
+    },
+    "topology_extra_in_local": [],
+    "topology_missing_from_local": []
+  },
+  "description_footprints": {
+    "checked_count": 60,
+    "checked_paths": [
+      "PC1.C",
+      "PC11.C",
+      "PC12.C",
+      "PC13.C",
+      "PC14.C",
+      "PC15.C",
+      "PC16.C",
+      "PC17.C",
+      "PC18.C",
+      "PC19.C",
+      "PC2.C",
+      "PC20.C",
+      "PC25.C",
+      "PC26.C",
+      "PC27.C",
+      "PC2764.C",
+      "PC2765.C",
+      "PC2766.C",
+      "PC2767.C",
+      "PC28.C",
+      "PC29.C",
+      "PC3.C",
+      "PC30.C",
+      "PC31.C",
+      "PC32.C",
+      "PC33.C",
+      "PC34.C",
+      "PC35.C",
+      "PC36.C",
+      "PC37.C",
+      "PC38.C",
+      "PC39.C",
+      "PC4.C",
+      "PC40.C",
+      "PC41.C",
+      "PC42.C",
+      "PC43.C",
+      "PC5.C",
+      "PC6.C",
+      "PC7.C",
+      "PC8.C",
+      "PC9.C",
+      "PR1.R",
+      "PR10.R",
+      "PR11.R",
+      "PR12.R",
+      "PR13.R",
+      "PR14.R",
+      "PR15.R",
+      "PR16.R",
+      "PR17.R",
+      "PR18.R",
+      "PR2.R",
+      "PR3.R",
+      "PR4.R",
+      "PR5.R",
+      "PR6.R",
+      "PR7.R",
+      "PR8.R",
+      "PR9.R"
+    ],
+    "differences": [
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Capacitor",
+        "expected_description": "C060304",
+        "path": "PC15.C",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Capacitor",
+        "expected_description": "C060304",
+        "path": "PC19.C",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Capacitor",
+        "expected_description": "C060304",
+        "path": "PC20.C",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Capacitor",
+        "expected_description": "C060304",
+        "path": "PC25.C",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Capacitor",
+        "expected_description": "C060304",
+        "path": "PC26.C",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Capacitor",
+        "expected_description": "C060304",
+        "path": "PC27.C",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Capacitor",
+        "expected_description": "C060304",
+        "path": "PC31.C",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Capacitor",
+        "expected_description": "C060304",
+        "path": "PC35.C",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Capacitor",
+        "expected_description": "C060304",
+        "path": "PC5.C",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Capacitor",
+        "expected_description": "C060304",
+        "path": "PC6.C",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Capacitor",
+        "expected_description": "C060304",
+        "path": "PC7.C",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Resistor",
+        "expected_description": "R0603",
+        "path": "PR1.R",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Resistor",
+        "expected_description": "R0603",
+        "path": "PR10.R",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Resistor",
+        "expected_description": "R0603",
+        "path": "PR11.R",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Resistor",
+        "expected_description": "R0603",
+        "path": "PR12.R",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Resistor",
+        "expected_description": "R0603",
+        "path": "PR13.R",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Resistor",
+        "expected_description": "R0603",
+        "path": "PR14.R",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Resistor",
+        "expected_description": "R0603",
+        "path": "PR15.R",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "",
+        "component_type": "Resistor",
+        "expected_description": "R0603",
+        "path": "PR16.R",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "R0603",
+        "component_type": "Resistor",
+        "expected_description": "R0603",
+        "path": "PR17.R",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "R0603",
+        "component_type": "Resistor",
+        "expected_description": "R0603",
+        "path": "PR18.R",
+        "registry_package": "0603"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "R0603",
+        "component_type": "Resistor",
+        "expected_description": "R0603",
+        "path": "PR9.R",
+        "registry_package": "0603"
+      }
+    ],
+    "unverified": [
+      {
+        "component_type": null,
+        "package": "2512",
+        "path": "PL1.L",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": "2512",
+        "path": "PL2.L",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": "2512",
+        "path": "PL3.L",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": null,
+        "path": "PQ1.Q",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": null,
+        "path": "PQ2.Q",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": null,
+        "path": "PQ3.Q",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": null,
+        "path": "PQ4.Q",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": null,
+        "path": "PTC21.C",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": null,
+        "path": "PTC23.C",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": null,
+        "path": "PTC24.C",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": null,
+        "path": "PTC25.C",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": null,
+        "path": "PTC26.C",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": null,
+        "path": "PTC27.C",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      },
+      {
+        "component_type": null,
+        "package": null,
+        "path": "PU1",
+        "reason": "No source-footprint description convention is asserted for this MPN component or placeholder inductor"
+      }
+    ]
+  },
+  "identical": false,
+  "normalizations": [
+    "Registry leaf paths PC1.C/PR1.R/PL1.L/PQ1.Q map to references PC1/PR1/PL1/PQ1",
+    "A temporary import copy is renumbered to KiCad-compatible C/R/L/U references",
+    "The original Power_Supply.kicad_sch is never written",
+    "Zener Net/Power variables without explicit constructor names use their variable names",
+    "One leading KiCad root-scope slash is removed from named nets",
+    "MOSFET D_<pad>/S_<pad> interfaces are coalesced to D/S",
+    "SI-equivalent values and source underscore/ohm/tolerance spellings are normalized",
+    "UUIDs, ordering, placement, and graphics are ignored"
+  ],
+  "reference_designators": {
+    "checked_count": 74,
+    "differences": []
+  },
+  "schema_version": 1,
+  "source_file_unchanged": true,
+  "status": "different",
+  "summary": {
+    "all_net_names_present": true,
+    "bom_identical": false,
+    "component_difference_count": 6,
+    "description_footprint_difference_count": 22,
+    "description_footprints_identical": false,
+    "electrical_topology_identical": true,
+    "hard_difference_count": 28,
+    "net_name_difference_count": 0,
+    "reference_designator_difference_count": 0,
+    "reference_designators_identical": true,
+    "topology_difference_count": 0
+  },
+  "target": "/Users/colton/Desktop/smarc_pcie/Power_Supply.kicad_sch",
+  "target_sha256": "bfa01f389e55401a86c6589f742d13b01d14d88e055f43c8d20628df259499f9"
+}

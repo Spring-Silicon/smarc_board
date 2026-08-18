@@ -1,0 +1,911 @@
+{
+  "baseline": {
+    "commit": "8be1328adb24ee6556a76847c1f46d91a19aa0f7",
+    "entrypoint": "components/Texas_Instruments/TPS51225B/SMARC_5V_3V3.zen",
+    "package": "code.diode.computer/spring/registry/components/Texas_Instruments/TPS51225B",
+    "pcb_version": "pcbc 0.4.29",
+    "version": "0.1.0"
+  },
+  "commands": {
+    "local_import": {
+      "errors": 8,
+      "generated_zen": "/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/schematic-identity-65658_zv/SMARC_5V_3V3.zen",
+      "returncode": 0,
+      "tail": "\u2502 schematic.erc.pin_not_connected       2                   -                   \u2502\n\u2502 schematic.erc.power_pin_not_driven    6                   -                   \u2502\n\u2502 Total                                 8                   139                 \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\nWarning: KiCad ERC/DRC reported 8 errors; these do not block import.\nWarning: 74 component(s) have unresolved footprints: 0603, 0805, 1206, 2512, <missing footprint>. The board imported with connectivity intact but is not layout-ready.\nPassive detection (2-pad only): R=0 (h:0 m:0 l:0), C=0 (h:0 m:0 l:0), unknown:0, known-non-2-pad:0, pad-count-unknown:74\nValidated generated Zener against 31 physical-pin partition(s)\nWrote imported board to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/schematic-identity-65658_zv/SMARC_5V_3V3.zen\nWrote import extraction report to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/schematic-identity-65658_zv/.kicad.import.extraction.json\nWrote import validation diagnostics to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/schematic-identity-65658_zv/.kicad.validation.diagnostics.json",
+      "warnings": 141
+    },
+    "reference_bom": {
+      "command": "pcb bom --offline --format json /private/tmp/tps51225b-v0.1.0.tGwOrY/registry/components/Texas_Instruments/TPS51225B/SMARC_5V_3V3.zen",
+      "component_count": 74
+    },
+    "reference_validation": {
+      "command": "pcb build --offline --diagnostics - /private/tmp/tps51225b-v0.1.0.tGwOrY/registry/components/Texas_Instruments/TPS51225B/SMARC_5V_3V3.zen",
+      "output": "\u2713 SMARC_5V_3V3.zen (74 components)\n{\n  \"components/Texas_Instruments/TPS51225B/SMARC_5V_3V3.zen\": []\n}"
+    }
+  },
+  "components": {
+    "advisories": [],
+    "differences": [],
+    "extra_in_local": [],
+    "local_count": 74,
+    "missing_from_local": [],
+    "reference_count": 74
+  },
+  "connectivity": {
+    "differences": [
+      {
+        "actual": "anonymous:PC18.C:P1|PR2.R:P2|PU1:VIN",
+        "endpoint": "PC18.C:P1",
+        "expected": "named:P_+5V_3V3_VIN"
+      },
+      {
+        "actual": "anonymous:PC19.C:P1|PR5.R:P2",
+        "endpoint": "PC19.C:P1",
+        "expected": "named:P_+3V3_BST_RC_20"
+      },
+      {
+        "actual": "anonymous:PC20.C:P1|PR6.R:P2",
+        "endpoint": "PC20.C:P1",
+        "expected": "named:P_+5V_BST_RC_20"
+      },
+      {
+        "actual": "anonymous:PC25.C:P1|PR7.R:P2",
+        "endpoint": "PC25.C:P1",
+        "expected": "named:P_+3V3_SNB"
+      },
+      {
+        "actual": "anonymous:PC26.C:P1|PR8.R:P2",
+        "endpoint": "PC26.C:P1",
+        "expected": "named:P_+5V_SNB"
+      },
+      {
+        "actual": "anonymous:PC31.C:P2|PR12.R:P1|PR9.R:P2|PU1:VFB2",
+        "endpoint": "PC31.C:P2",
+        "expected": "named:P_+3V3_FB"
+      },
+      {
+        "actual": "anonymous:PC35.C:P2|PR10.R:P2|PR11.R:P1|PU1:VFB1",
+        "endpoint": "PC35.C:P2",
+        "expected": "named:P_+5V_FB"
+      },
+      {
+        "actual": "named:P_3V3_LDO",
+        "endpoint": "PC36.C:P1",
+        "expected": "anonymous:PC36.C:P1|PR1.R:P1|PR13.R:P1|PR14.R:P1|PU1:VREG3"
+      },
+      {
+        "actual": "anonymous:PQ1.Q:G|PR4.R:P2",
+        "endpoint": "PQ1.Q:G",
+        "expected": "named:P_+5V_HG_20_R"
+      },
+      {
+        "actual": "anonymous:PQ2.Q:G|PR3.R:P2",
+        "endpoint": "PQ2.Q:G",
+        "expected": "named:P_+3V3_HG_R"
+      },
+      {
+        "actual": "anonymous:PQ3.Q:G|PU1:DRVL2",
+        "endpoint": "PQ3.Q:G",
+        "expected": "named:P_+3V3_LG_20"
+      },
+      {
+        "actual": "named:P_3V3_LDO",
+        "endpoint": "PR1.R:P1",
+        "expected": "anonymous:PC36.C:P1|PR1.R:P1|PR13.R:P1|PR14.R:P1|PU1:VREG3"
+      },
+      {
+        "actual": "named:P_3V3_5V_A_PG",
+        "endpoint": "PR1.R:P2",
+        "expected": "named:P_+3V3_5V_A_PG"
+      },
+      {
+        "actual": "anonymous:PC35.C:P2|PR10.R:P2|PR11.R:P1|PU1:VFB1",
+        "endpoint": "PR10.R:P2",
+        "expected": "named:P_+5V_FB"
+      },
+      {
+        "actual": "anonymous:PC35.C:P2|PR10.R:P2|PR11.R:P1|PU1:VFB1",
+        "endpoint": "PR11.R:P1",
+        "expected": "named:P_+5V_FB"
+      },
+      {
+        "actual": "anonymous:PC31.C:P2|PR12.R:P1|PR9.R:P2|PU1:VFB2",
+        "endpoint": "PR12.R:P1",
+        "expected": "named:P_+3V3_FB"
+      },
+      {
+        "actual": "named:P_3V3_LDO",
+        "endpoint": "PR13.R:P1",
+        "expected": "anonymous:PC36.C:P1|PR1.R:P1|PR13.R:P1|PR14.R:P1|PU1:VREG3"
+      },
+      {
+        "actual": "named:P_3V3_LDO",
+        "endpoint": "PR14.R:P1",
+        "expected": "anonymous:PC36.C:P1|PR1.R:P1|PR13.R:P1|PR14.R:P1|PU1:VREG3"
+      },
+      {
+        "actual": "anonymous:PR15.R:P1|PU1:CS1",
+        "endpoint": "PR15.R:P1",
+        "expected": "named:P_+5V_CS1"
+      },
+      {
+        "actual": "anonymous:PR16.R:P1|PU1:CS2",
+        "endpoint": "PR16.R:P1",
+        "expected": "named:P_+3V3_CS2"
+      },
+      {
+        "actual": "anonymous:PC18.C:P1|PR2.R:P2|PU1:VIN",
+        "endpoint": "PR2.R:P2",
+        "expected": "named:P_+5V_3V3_VIN"
+      },
+      {
+        "actual": "anonymous:PR3.R:P1|PU1:DRVH2",
+        "endpoint": "PR3.R:P1",
+        "expected": "named:P_+3V3_HG_20"
+      },
+      {
+        "actual": "anonymous:PQ2.Q:G|PR3.R:P2",
+        "endpoint": "PR3.R:P2",
+        "expected": "named:P_+3V3_HG_R"
+      },
+      {
+        "actual": "anonymous:PR4.R:P1|PU1:DRVH1",
+        "endpoint": "PR4.R:P1",
+        "expected": "named:P_+5V_HG_20"
+      },
+      {
+        "actual": "anonymous:PQ1.Q:G|PR4.R:P2",
+        "endpoint": "PR4.R:P2",
+        "expected": "named:P_+5V_HG_20_R"
+      },
+      {
+        "actual": "anonymous:PR5.R:P1|PU1:VBST2",
+        "endpoint": "PR5.R:P1",
+        "expected": "named:P_+3V3_BST_20"
+      },
+      {
+        "actual": "anonymous:PC19.C:P1|PR5.R:P2",
+        "endpoint": "PR5.R:P2",
+        "expected": "named:P_+3V3_BST_RC_20"
+      },
+      {
+        "actual": "anonymous:PR6.R:P1|PU1:VBST1",
+        "endpoint": "PR6.R:P1",
+        "expected": "named:P_+5V_BST_20"
+      },
+      {
+        "actual": "anonymous:PC20.C:P1|PR6.R:P2",
+        "endpoint": "PR6.R:P2",
+        "expected": "named:P_+5V_BST_RC_20"
+      },
+      {
+        "actual": "anonymous:PC25.C:P1|PR7.R:P2",
+        "endpoint": "PR7.R:P2",
+        "expected": "named:P_+3V3_SNB"
+      },
+      {
+        "actual": "anonymous:PC26.C:P1|PR8.R:P2",
+        "endpoint": "PR8.R:P2",
+        "expected": "named:P_+5V_SNB"
+      },
+      {
+        "actual": "anonymous:PC31.C:P2|PR12.R:P1|PR9.R:P2|PU1:VFB2",
+        "endpoint": "PR9.R:P2",
+        "expected": "named:P_+3V3_FB"
+      },
+      {
+        "actual": "anonymous:PR15.R:P1|PU1:CS1",
+        "endpoint": "PU1:CS1",
+        "expected": "named:P_+5V_CS1"
+      },
+      {
+        "actual": "anonymous:PR16.R:P1|PU1:CS2",
+        "endpoint": "PU1:CS2",
+        "expected": "named:P_+3V3_CS2"
+      },
+      {
+        "actual": "anonymous:PR4.R:P1|PU1:DRVH1",
+        "endpoint": "PU1:DRVH1",
+        "expected": "named:P_+5V_HG_20"
+      },
+      {
+        "actual": "anonymous:PR3.R:P1|PU1:DRVH2",
+        "endpoint": "PU1:DRVH2",
+        "expected": "named:P_+3V3_HG_20"
+      },
+      {
+        "actual": "anonymous:PQ3.Q:G|PU1:DRVL2",
+        "endpoint": "PU1:DRVL2",
+        "expected": "named:P_+3V3_LG_20"
+      },
+      {
+        "actual": "named:P_3V3_5V_A_PG",
+        "endpoint": "PU1:PGOOD",
+        "expected": "named:P_+3V3_5V_A_PG"
+      },
+      {
+        "actual": "anonymous:PR6.R:P1|PU1:VBST1",
+        "endpoint": "PU1:VBST1",
+        "expected": "named:P_+5V_BST_20"
+      },
+      {
+        "actual": "anonymous:PR5.R:P1|PU1:VBST2",
+        "endpoint": "PU1:VBST2",
+        "expected": "named:P_+3V3_BST_20"
+      },
+      {
+        "actual": "anonymous:PC35.C:P2|PR10.R:P2|PR11.R:P1|PU1:VFB1",
+        "endpoint": "PU1:VFB1",
+        "expected": "named:P_+5V_FB"
+      },
+      {
+        "actual": "anonymous:PC31.C:P2|PR12.R:P1|PR9.R:P2|PU1:VFB2",
+        "endpoint": "PU1:VFB2",
+        "expected": "named:P_+3V3_FB"
+      },
+      {
+        "actual": "anonymous:PC18.C:P1|PR2.R:P2|PU1:VIN",
+        "endpoint": "PU1:VIN",
+        "expected": "named:P_+5V_3V3_VIN"
+      },
+      {
+        "actual": "named:P_3V3_LDO",
+        "endpoint": "PU1:VREG3",
+        "expected": "anonymous:PC36.C:P1|PR1.R:P1|PR13.R:P1|PR14.R:P1|PU1:VREG3"
+      }
+    ],
+    "extra_in_local": [],
+    "local_conflicts": [],
+    "local_endpoint_count": 171,
+    "local_nets": {
+      "anonymous:PC18.C:P1|PR2.R:P2|PU1:VIN": [
+        "PC18.C:P1",
+        "PR2.R:P2",
+        "PU1:VIN"
+      ],
+      "anonymous:PC19.C:P1|PR5.R:P2": [
+        "PC19.C:P1",
+        "PR5.R:P2"
+      ],
+      "anonymous:PC20.C:P1|PR6.R:P2": [
+        "PC20.C:P1",
+        "PR6.R:P2"
+      ],
+      "anonymous:PC25.C:P1|PR7.R:P2": [
+        "PC25.C:P1",
+        "PR7.R:P2"
+      ],
+      "anonymous:PC26.C:P1|PR8.R:P2": [
+        "PC26.C:P1",
+        "PR8.R:P2"
+      ],
+      "anonymous:PC31.C:P2|PR12.R:P1|PR9.R:P2|PU1:VFB2": [
+        "PC31.C:P2",
+        "PR12.R:P1",
+        "PR9.R:P2",
+        "PU1:VFB2"
+      ],
+      "anonymous:PC35.C:P2|PR10.R:P2|PR11.R:P1|PU1:VFB1": [
+        "PC35.C:P2",
+        "PR10.R:P2",
+        "PR11.R:P1",
+        "PU1:VFB1"
+      ],
+      "anonymous:PC37.C:P1|PU1:VREG5": [
+        "PC37.C:P1",
+        "PU1:VREG5"
+      ],
+      "anonymous:PQ1.Q:G|PR4.R:P2": [
+        "PQ1.Q:G",
+        "PR4.R:P2"
+      ],
+      "anonymous:PQ2.Q:G|PR3.R:P2": [
+        "PQ2.Q:G",
+        "PR3.R:P2"
+      ],
+      "anonymous:PQ3.Q:G|PU1:DRVL2": [
+        "PQ3.Q:G",
+        "PU1:DRVL2"
+      ],
+      "anonymous:PR15.R:P1|PU1:CS1": [
+        "PR15.R:P1",
+        "PU1:CS1"
+      ],
+      "anonymous:PR16.R:P1|PU1:CS2": [
+        "PR16.R:P1",
+        "PU1:CS2"
+      ],
+      "anonymous:PR3.R:P1|PU1:DRVH2": [
+        "PR3.R:P1",
+        "PU1:DRVH2"
+      ],
+      "anonymous:PR4.R:P1|PU1:DRVH1": [
+        "PR4.R:P1",
+        "PU1:DRVH1"
+      ],
+      "anonymous:PR5.R:P1|PU1:VBST2": [
+        "PR5.R:P1",
+        "PU1:VBST2"
+      ],
+      "anonymous:PR6.R:P1|PU1:VBST1": [
+        "PR6.R:P1",
+        "PU1:VBST1"
+      ],
+      "named:GND": [
+        "PC1.C:P2",
+        "PC11.C:P2",
+        "PC12.C:P2",
+        "PC13.C:P2",
+        "PC14.C:P2",
+        "PC15.C:P2",
+        "PC16.C:P2",
+        "PC17.C:P2",
+        "PC18.C:P2",
+        "PC2.C:P2",
+        "PC25.C:P2",
+        "PC26.C:P2",
+        "PC27.C:P2",
+        "PC2764.C:P2",
+        "PC2765.C:P2",
+        "PC2766.C:P2",
+        "PC2767.C:P2",
+        "PC28.C:P2",
+        "PC29.C:P2",
+        "PC3.C:P2",
+        "PC30.C:P2",
+        "PC32.C:P2",
+        "PC33.C:P2",
+        "PC34.C:P2",
+        "PC36.C:P2",
+        "PC37.C:P2",
+        "PC38.C:P2",
+        "PC39.C:P2",
+        "PC4.C:P2",
+        "PC40.C:P2",
+        "PC41.C:P2",
+        "PC42.C:P2",
+        "PC43.C:P2",
+        "PC5.C:P2",
+        "PC6.C:P2",
+        "PC7.C:P2",
+        "PC8.C:P2",
+        "PC9.C:P2",
+        "PQ3.Q:S",
+        "PQ4.Q:S",
+        "PR11.R:P2",
+        "PR12.R:P2",
+        "PR15.R:P2",
+        "PR16.R:P2",
+        "PTC21.C:NEG",
+        "PTC23.C:NEG",
+        "PTC24.C:NEG",
+        "PTC25.C:NEG",
+        "PTC26.C:NEG",
+        "PTC27.C:NEG",
+        "PU1:EP"
+      ],
+      "named:P_+3V3_A": [
+        "PC31.C:P1",
+        "PC32.C:P1",
+        "PC33.C:P1",
+        "PC34.C:P1",
+        "PC41.C:P1",
+        "PC42.C:P1",
+        "PC43.C:P1",
+        "PL2.L:P2",
+        "PR9.R:P1",
+        "PTC21.C:POS",
+        "PTC27.C:POS"
+      ],
+      "named:P_+3V3_EN_R": [
+        "PR14.R:P2",
+        "PR18.R:P1",
+        "PU1:EN2"
+      ],
+      "named:P_+3V3_SW": [
+        "PC19.C:P2",
+        "PL2.L:P1",
+        "PQ2.Q:S",
+        "PQ3.Q:D",
+        "PR7.R:P1",
+        "PU1:SW2"
+      ],
+      "named:P_+5V_3V3_VINFIT": [
+        "PC1.C:P1",
+        "PC11.C:P1",
+        "PC12.C:P1",
+        "PC13.C:P1",
+        "PC14.C:P1",
+        "PC15.C:P1",
+        "PC16.C:P1",
+        "PC17.C:P1",
+        "PC2.C:P1",
+        "PC2764.C:P1",
+        "PC2765.C:P1",
+        "PC2766.C:P1",
+        "PC2767.C:P1",
+        "PC3.C:P1",
+        "PC4.C:P1",
+        "PC5.C:P1",
+        "PC6.C:P1",
+        "PC7.C:P1",
+        "PC8.C:P1",
+        "PC9.C:P1",
+        "PL1.L:P2",
+        "PQ1.Q:D",
+        "PQ2.Q:D",
+        "PR2.R:P1"
+      ],
+      "named:P_+5V_A": [
+        "PC27.C:P1",
+        "PC28.C:P1",
+        "PC29.C:P1",
+        "PC30.C:P1",
+        "PC35.C:P1",
+        "PC38.C:P1",
+        "PC39.C:P1",
+        "PC40.C:P1",
+        "PL3.L:P2",
+        "PR10.R:P1",
+        "PTC23.C:POS",
+        "PTC24.C:POS",
+        "PTC25.C:POS",
+        "PTC26.C:POS",
+        "PU1:VO1"
+      ],
+      "named:P_+5V_EN_R": [
+        "PR13.R:P2",
+        "PR17.R:P1",
+        "PU1:EN1"
+      ],
+      "named:P_+5V_LG_20": [
+        "PQ4.Q:G",
+        "PU1:DRVL1"
+      ],
+      "named:P_+5V_SW_S": [
+        "PC20.C:P2",
+        "PL3.L:P1",
+        "PQ1.Q:S",
+        "PQ4.Q:D",
+        "PR8.R:P1",
+        "PU1:SW1"
+      ],
+      "named:P_3V3_5V_A_PG": [
+        "PR1.R:P2",
+        "PU1:PGOOD"
+      ],
+      "named:P_3V3_LDO": [
+        "PC36.C:P1",
+        "PR1.R:P1",
+        "PR13.R:P1",
+        "PR14.R:P1",
+        "PU1:VREG3"
+      ],
+      "named:S_CB_PWR_ON": [
+        "PR17.R:P2",
+        "PR18.R:P2"
+      ],
+      "named:VIN_9~19V": [
+        "PL1.L:P1"
+      ],
+      "not_connected": [
+        "PU1:VCLK"
+      ]
+    },
+    "missing_from_local": [],
+    "net_name_differences": [
+      {
+        "actual": "anonymous:PC18.C:P1|PR2.R:P2|PU1:VIN",
+        "endpoints": [
+          "PC18.C:P1",
+          "PR2.R:P2",
+          "PU1:VIN"
+        ],
+        "expected": "named:P_+5V_3V3_VIN"
+      },
+      {
+        "actual": "anonymous:PC19.C:P1|PR5.R:P2",
+        "endpoints": [
+          "PC19.C:P1",
+          "PR5.R:P2"
+        ],
+        "expected": "named:P_+3V3_BST_RC_20"
+      },
+      {
+        "actual": "anonymous:PC20.C:P1|PR6.R:P2",
+        "endpoints": [
+          "PC20.C:P1",
+          "PR6.R:P2"
+        ],
+        "expected": "named:P_+5V_BST_RC_20"
+      },
+      {
+        "actual": "anonymous:PC25.C:P1|PR7.R:P2",
+        "endpoints": [
+          "PC25.C:P1",
+          "PR7.R:P2"
+        ],
+        "expected": "named:P_+3V3_SNB"
+      },
+      {
+        "actual": "anonymous:PC26.C:P1|PR8.R:P2",
+        "endpoints": [
+          "PC26.C:P1",
+          "PR8.R:P2"
+        ],
+        "expected": "named:P_+5V_SNB"
+      },
+      {
+        "actual": "anonymous:PC31.C:P2|PR12.R:P1|PR9.R:P2|PU1:VFB2",
+        "endpoints": [
+          "PC31.C:P2",
+          "PR12.R:P1",
+          "PR9.R:P2",
+          "PU1:VFB2"
+        ],
+        "expected": "named:P_+3V3_FB"
+      },
+      {
+        "actual": "anonymous:PC35.C:P2|PR10.R:P2|PR11.R:P1|PU1:VFB1",
+        "endpoints": [
+          "PC35.C:P2",
+          "PR10.R:P2",
+          "PR11.R:P1",
+          "PU1:VFB1"
+        ],
+        "expected": "named:P_+5V_FB"
+      },
+      {
+        "actual": "named:P_3V3_LDO",
+        "endpoints": [
+          "PC36.C:P1",
+          "PR1.R:P1",
+          "PR13.R:P1",
+          "PR14.R:P1",
+          "PU1:VREG3"
+        ],
+        "expected": "anonymous:PC36.C:P1|PR1.R:P1|PR13.R:P1|PR14.R:P1|PU1:VREG3"
+      },
+      {
+        "actual": "anonymous:PQ1.Q:G|PR4.R:P2",
+        "endpoints": [
+          "PQ1.Q:G",
+          "PR4.R:P2"
+        ],
+        "expected": "named:P_+5V_HG_20_R"
+      },
+      {
+        "actual": "anonymous:PQ2.Q:G|PR3.R:P2",
+        "endpoints": [
+          "PQ2.Q:G",
+          "PR3.R:P2"
+        ],
+        "expected": "named:P_+3V3_HG_R"
+      },
+      {
+        "actual": "anonymous:PQ3.Q:G|PU1:DRVL2",
+        "endpoints": [
+          "PQ3.Q:G",
+          "PU1:DRVL2"
+        ],
+        "expected": "named:P_+3V3_LG_20"
+      },
+      {
+        "actual": "named:P_3V3_5V_A_PG",
+        "endpoints": [
+          "PR1.R:P2",
+          "PU1:PGOOD"
+        ],
+        "expected": "named:P_+3V3_5V_A_PG"
+      },
+      {
+        "actual": "anonymous:PR15.R:P1|PU1:CS1",
+        "endpoints": [
+          "PR15.R:P1",
+          "PU1:CS1"
+        ],
+        "expected": "named:P_+5V_CS1"
+      },
+      {
+        "actual": "anonymous:PR16.R:P1|PU1:CS2",
+        "endpoints": [
+          "PR16.R:P1",
+          "PU1:CS2"
+        ],
+        "expected": "named:P_+3V3_CS2"
+      },
+      {
+        "actual": "anonymous:PR3.R:P1|PU1:DRVH2",
+        "endpoints": [
+          "PR3.R:P1",
+          "PU1:DRVH2"
+        ],
+        "expected": "named:P_+3V3_HG_20"
+      },
+      {
+        "actual": "anonymous:PR4.R:P1|PU1:DRVH1",
+        "endpoints": [
+          "PR4.R:P1",
+          "PU1:DRVH1"
+        ],
+        "expected": "named:P_+5V_HG_20"
+      },
+      {
+        "actual": "anonymous:PR5.R:P1|PU1:VBST2",
+        "endpoints": [
+          "PR5.R:P1",
+          "PU1:VBST2"
+        ],
+        "expected": "named:P_+3V3_BST_20"
+      },
+      {
+        "actual": "anonymous:PR6.R:P1|PU1:VBST1",
+        "endpoints": [
+          "PR6.R:P1",
+          "PU1:VBST1"
+        ],
+        "expected": "named:P_+5V_BST_20"
+      }
+    ],
+    "reference_conflicts": [],
+    "reference_endpoint_count": 171,
+    "reference_nets": {
+      "anonymous:PC36.C:P1|PR1.R:P1|PR13.R:P1|PR14.R:P1|PU1:VREG3": [
+        "PC36.C:P1",
+        "PR1.R:P1",
+        "PR13.R:P1",
+        "PR14.R:P1",
+        "PU1:VREG3"
+      ],
+      "anonymous:PC37.C:P1|PU1:VREG5": [
+        "PC37.C:P1",
+        "PU1:VREG5"
+      ],
+      "named:GND": [
+        "PC1.C:P2",
+        "PC11.C:P2",
+        "PC12.C:P2",
+        "PC13.C:P2",
+        "PC14.C:P2",
+        "PC15.C:P2",
+        "PC16.C:P2",
+        "PC17.C:P2",
+        "PC18.C:P2",
+        "PC2.C:P2",
+        "PC25.C:P2",
+        "PC26.C:P2",
+        "PC27.C:P2",
+        "PC2764.C:P2",
+        "PC2765.C:P2",
+        "PC2766.C:P2",
+        "PC2767.C:P2",
+        "PC28.C:P2",
+        "PC29.C:P2",
+        "PC3.C:P2",
+        "PC30.C:P2",
+        "PC32.C:P2",
+        "PC33.C:P2",
+        "PC34.C:P2",
+        "PC36.C:P2",
+        "PC37.C:P2",
+        "PC38.C:P2",
+        "PC39.C:P2",
+        "PC4.C:P2",
+        "PC40.C:P2",
+        "PC41.C:P2",
+        "PC42.C:P2",
+        "PC43.C:P2",
+        "PC5.C:P2",
+        "PC6.C:P2",
+        "PC7.C:P2",
+        "PC8.C:P2",
+        "PC9.C:P2",
+        "PQ3.Q:S",
+        "PQ4.Q:S",
+        "PR11.R:P2",
+        "PR12.R:P2",
+        "PR15.R:P2",
+        "PR16.R:P2",
+        "PTC21.C:NEG",
+        "PTC23.C:NEG",
+        "PTC24.C:NEG",
+        "PTC25.C:NEG",
+        "PTC26.C:NEG",
+        "PTC27.C:NEG",
+        "PU1:EP"
+      ],
+      "named:P_+3V3_5V_A_PG": [
+        "PR1.R:P2",
+        "PU1:PGOOD"
+      ],
+      "named:P_+3V3_A": [
+        "PC31.C:P1",
+        "PC32.C:P1",
+        "PC33.C:P1",
+        "PC34.C:P1",
+        "PC41.C:P1",
+        "PC42.C:P1",
+        "PC43.C:P1",
+        "PL2.L:P2",
+        "PR9.R:P1",
+        "PTC21.C:POS",
+        "PTC27.C:POS"
+      ],
+      "named:P_+3V3_BST_20": [
+        "PR5.R:P1",
+        "PU1:VBST2"
+      ],
+      "named:P_+3V3_BST_RC_20": [
+        "PC19.C:P1",
+        "PR5.R:P2"
+      ],
+      "named:P_+3V3_CS2": [
+        "PR16.R:P1",
+        "PU1:CS2"
+      ],
+      "named:P_+3V3_EN_R": [
+        "PR14.R:P2",
+        "PR18.R:P1",
+        "PU1:EN2"
+      ],
+      "named:P_+3V3_FB": [
+        "PC31.C:P2",
+        "PR12.R:P1",
+        "PR9.R:P2",
+        "PU1:VFB2"
+      ],
+      "named:P_+3V3_HG_20": [
+        "PR3.R:P1",
+        "PU1:DRVH2"
+      ],
+      "named:P_+3V3_HG_R": [
+        "PQ2.Q:G",
+        "PR3.R:P2"
+      ],
+      "named:P_+3V3_LG_20": [
+        "PQ3.Q:G",
+        "PU1:DRVL2"
+      ],
+      "named:P_+3V3_SNB": [
+        "PC25.C:P1",
+        "PR7.R:P2"
+      ],
+      "named:P_+3V3_SW": [
+        "PC19.C:P2",
+        "PL2.L:P1",
+        "PQ2.Q:S",
+        "PQ3.Q:D",
+        "PR7.R:P1",
+        "PU1:SW2"
+      ],
+      "named:P_+5V_3V3_VIN": [
+        "PC18.C:P1",
+        "PR2.R:P2",
+        "PU1:VIN"
+      ],
+      "named:P_+5V_3V3_VINFIT": [
+        "PC1.C:P1",
+        "PC11.C:P1",
+        "PC12.C:P1",
+        "PC13.C:P1",
+        "PC14.C:P1",
+        "PC15.C:P1",
+        "PC16.C:P1",
+        "PC17.C:P1",
+        "PC2.C:P1",
+        "PC2764.C:P1",
+        "PC2765.C:P1",
+        "PC2766.C:P1",
+        "PC2767.C:P1",
+        "PC3.C:P1",
+        "PC4.C:P1",
+        "PC5.C:P1",
+        "PC6.C:P1",
+        "PC7.C:P1",
+        "PC8.C:P1",
+        "PC9.C:P1",
+        "PL1.L:P2",
+        "PQ1.Q:D",
+        "PQ2.Q:D",
+        "PR2.R:P1"
+      ],
+      "named:P_+5V_A": [
+        "PC27.C:P1",
+        "PC28.C:P1",
+        "PC29.C:P1",
+        "PC30.C:P1",
+        "PC35.C:P1",
+        "PC38.C:P1",
+        "PC39.C:P1",
+        "PC40.C:P1",
+        "PL3.L:P2",
+        "PR10.R:P1",
+        "PTC23.C:POS",
+        "PTC24.C:POS",
+        "PTC25.C:POS",
+        "PTC26.C:POS",
+        "PU1:VO1"
+      ],
+      "named:P_+5V_BST_20": [
+        "PR6.R:P1",
+        "PU1:VBST1"
+      ],
+      "named:P_+5V_BST_RC_20": [
+        "PC20.C:P1",
+        "PR6.R:P2"
+      ],
+      "named:P_+5V_CS1": [
+        "PR15.R:P1",
+        "PU1:CS1"
+      ],
+      "named:P_+5V_EN_R": [
+        "PR13.R:P2",
+        "PR17.R:P1",
+        "PU1:EN1"
+      ],
+      "named:P_+5V_FB": [
+        "PC35.C:P2",
+        "PR10.R:P2",
+        "PR11.R:P1",
+        "PU1:VFB1"
+      ],
+      "named:P_+5V_HG_20": [
+        "PR4.R:P1",
+        "PU1:DRVH1"
+      ],
+      "named:P_+5V_HG_20_R": [
+        "PQ1.Q:G",
+        "PR4.R:P2"
+      ],
+      "named:P_+5V_LG_20": [
+        "PQ4.Q:G",
+        "PU1:DRVL1"
+      ],
+      "named:P_+5V_SNB": [
+        "PC26.C:P1",
+        "PR8.R:P2"
+      ],
+      "named:P_+5V_SW_S": [
+        "PC20.C:P2",
+        "PL3.L:P1",
+        "PQ1.Q:S",
+        "PQ4.Q:D",
+        "PR8.R:P1",
+        "PU1:SW1"
+      ],
+      "named:S_CB_PWR_ON": [
+        "PR17.R:P2",
+        "PR18.R:P2"
+      ],
+      "named:VIN_9~19V": [
+        "PL1.L:P1"
+      ],
+      "not_connected": [
+        "PU1:VCLK"
+      ]
+    },
+    "topology_extra_in_local": [],
+    "topology_missing_from_local": []
+  },
+  "identical": false,
+  "normalizations": [
+    "KiCad components keyed by Path rather than Reference",
+    "one leading KiCad root-scope slash removed from named nets",
+    "KiCad Net-(...) names treated as anonymous nets",
+    "anonymous nets keyed by sorted component-path/pin endpoints",
+    "MOSFET D_<pad>/S_<pad> interfaces coalesced to D/S",
+    "SI-equivalent value spellings normalized",
+    "UUIDs, ordering, placement, and graphics ignored"
+  ],
+  "schema_version": 1,
+  "status": "different",
+  "summary": {
+    "advisories": 0,
+    "bom_identical": true,
+    "component_hard_differences": 0,
+    "connectivity_hard_differences": 18,
+    "electrical_topology_identical": true,
+    "named_nets_identical": false
+  },
+  "target": "/Users/colton/Desktop/smarc_pcie/SMARC_5V_3V3.kicad_sch"
+}

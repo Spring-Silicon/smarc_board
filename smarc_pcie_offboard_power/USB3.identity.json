@@ -1,0 +1,421 @@
+{
+  "baseline": {
+    "commit": "6c8133d9bda9c254cb825103bad53e1ab87fc85e",
+    "entrypoint": "modules/Usb3Ocp/Usb3Ocp.zen",
+    "package": "code.diode.computer/spring/registry/modules/Usb3Ocp",
+    "pcb_version": "pcbc 0.4.30",
+    "version": "0.1.0"
+  },
+  "commands": {
+    "interface_normalizations": [
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "R502.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "R503.R"
+      },
+      {
+        "kind": "unpolarized-passive-swap",
+        "mapping": {
+          "P1": "P2",
+          "P2": "P1"
+        },
+        "path": "R504.R"
+      },
+      {
+        "kind": "polarized-interface",
+        "mapping": {
+          "P1": "POS",
+          "P2": "NEG"
+        },
+        "path": "TC501.6TPE150MAZB"
+      },
+      {
+        "kind": "symbol-pin-alias",
+        "mapping": {
+          "N_FAULT": "~{FAULT}",
+          "PAD": "EP"
+        },
+        "path": "U501"
+      }
+    ],
+    "local_import": {
+      "errors": 3,
+      "generated_zen": "/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/usb3-identity-chgz0poi/imported/USB3.zen",
+      "returncode": 0,
+      "tail": "\u2502 schematic.erc.pin_not_connected       1                   -                   \u2502\n\u2502 schematic.erc.power_pin_not_driven    2                   -                   \u2502\n\u2502 Total                                 3                   6                   \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\nWarning: KiCad ERC/DRC reported 3 errors; these do not block import.\nWarning: 9 component(s) have unresolved footprints: <missing footprint>, R0603. The board imported with connectivity intact but is not layout-ready.\nPassive detection (2-pad only): R=0 (h:0 m:0 l:0), C=0 (h:0 m:0 l:0), unknown:0, known-non-2-pad:0, pad-count-unknown:9\nValidated generated Zener against 8 physical-pin partition(s)\nWrote imported board to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/usb3-identity-chgz0poi/imported/USB3.zen\nWrote import extraction report to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/usb3-identity-chgz0poi/imported/.kicad.import.extraction.json\nWrote import validation diagnostics to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/usb3-identity-chgz0poi/imported/.kicad.validation.diagnostics.json",
+      "warnings": 8
+    },
+    "reference_bom": {
+      "command": "pcb bom --offline --format json /private/tmp/usb3ocp-v0.1.0.YyYvv6/registry/modules/Usb3Ocp/Usb3Ocp.zen",
+      "component_count": 9
+    },
+    "reference_validation": {
+      "command": "pcb build --offline --diagnostics - /private/tmp/usb3ocp-v0.1.0.YyYvv6/registry/modules/Usb3Ocp/Usb3Ocp.zen",
+      "output": "\u2713 Usb3Ocp.zen (9 components)\n{\n  \"modules/Usb3Ocp/Usb3Ocp.zen\": []\n}"
+    },
+    "temporary_flattening": {
+      "flattened_root_uuid": "d639f0c9-f551-4b04-99f2-248bc04fb7b6",
+      "instance_path_replacements": 14,
+      "project_replacements": 14,
+      "temporary_file": "/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/usb3-identity-chgz0poi/USB3.kicad_sch"
+    }
+  },
+  "components": {
+    "advisories": [
+      {
+        "actual": "R0603",
+        "expected": "0402",
+        "field": "package",
+        "path": "R501.R"
+      },
+      {
+        "actual": "R0603",
+        "expected": "0402",
+        "field": "package",
+        "path": "R502.R"
+      },
+      {
+        "actual": "R0603",
+        "expected": "0402",
+        "field": "package",
+        "path": "R503.R"
+      },
+      {
+        "actual": "R0603",
+        "expected": "0402",
+        "field": "package",
+        "path": "R504.R"
+      }
+    ],
+    "differences": [
+      {
+        "actual": null,
+        "expected": "GRM155R71A104KA01D",
+        "field": "mpn",
+        "path": "C501.C"
+      },
+      {
+        "actual": null,
+        "expected": "GRM155R60J105KE19D",
+        "field": "mpn",
+        "path": "C502.C"
+      },
+      {
+        "actual": null,
+        "expected": "GRM1555C1H471JA01D",
+        "field": "mpn",
+        "path": "C503.C"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R501.R"
+      },
+      {
+        "actual": null,
+        "expected": "ERJ-2RKF1003X",
+        "field": "mpn",
+        "path": "R502.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R503.R"
+      },
+      {
+        "actual": null,
+        "expected": "ERJ-2RKF2152X",
+        "field": "mpn",
+        "path": "R504.R"
+      },
+      {
+        "actual": "EEF-CX0J151XR",
+        "expected": "6TPE150MAZB",
+        "field": "mpn",
+        "path": "TC501.6TPE150MAZB"
+      },
+      {
+        "actual": null,
+        "expected": "TPS2553DRVR",
+        "field": "mpn",
+        "path": "U501"
+      }
+    ],
+    "extra_in_local": [],
+    "local_count": 9,
+    "missing_from_local": [],
+    "reference_count": 9
+  },
+  "connectivity": {
+    "differences": [
+      {
+        "actual": "named:USB2_B_ILIM",
+        "endpoint": "R504.R:P1",
+        "expected": "named:2USB2_B_ILIM"
+      },
+      {
+        "actual": "named:USB2_B_ILIM",
+        "endpoint": "U501:ILIM",
+        "expected": "named:2USB2_B_ILIM"
+      }
+    ],
+    "extra_in_local": [],
+    "local_conflicts": [],
+    "local_endpoint_count": 23,
+    "local_nets": {
+      "anonymous:R501.R:P2|R503.R:P1|U501:~{FAULT}": [
+        "R501.R:P2",
+        "R503.R:P1",
+        "U501:~{FAULT}"
+      ],
+      "named:GND": [
+        "C501.C:P2",
+        "C502.C:P2",
+        "C503.C:P2",
+        "R504.R:P2",
+        "TC501.6TPE150MAZB:NEG",
+        "U501:EP",
+        "U501:GND"
+      ],
+      "named:P_+3V3_A": [
+        "R502.R:P1"
+      ],
+      "named:P_+5V_A": [
+        "C501.C:P1",
+        "U501:IN"
+      ],
+      "named:P_VBUS_USB2": [
+        "C503.C:P1",
+        "TC501.6TPE150MAZB:POS",
+        "U501:OUT"
+      ],
+      "named:USB2_B_ILIM": [
+        "R504.R:P1",
+        "U501:ILIM"
+      ],
+      "named:USB2_OCP_FAULT#": [
+        "R501.R:P1"
+      ],
+      "named:USB2_OC_EN#": [
+        "C502.C:P1",
+        "R502.R:P2",
+        "R503.R:P2",
+        "U501:EN"
+      ]
+    },
+    "missing_from_local": [],
+    "net_name_differences": [
+      {
+        "actual": "named:USB2_B_ILIM",
+        "endpoints": [
+          "R504.R:P1",
+          "U501:ILIM"
+        ],
+        "expected": "named:2USB2_B_ILIM"
+      }
+    ],
+    "reference_conflicts": [],
+    "reference_endpoint_count": 23,
+    "reference_nets": {
+      "anonymous:R501.R:P2|R503.R:P1|U501:~{FAULT}": [
+        "R501.R:P2",
+        "R503.R:P1",
+        "U501:~{FAULT}"
+      ],
+      "named:2USB2_B_ILIM": [
+        "R504.R:P1",
+        "U501:ILIM"
+      ],
+      "named:GND": [
+        "C501.C:P2",
+        "C502.C:P2",
+        "C503.C:P2",
+        "R504.R:P2",
+        "TC501.6TPE150MAZB:NEG",
+        "U501:EP",
+        "U501:GND"
+      ],
+      "named:P_+3V3_A": [
+        "R502.R:P1"
+      ],
+      "named:P_+5V_A": [
+        "C501.C:P1",
+        "U501:IN"
+      ],
+      "named:P_VBUS_USB2": [
+        "C503.C:P1",
+        "TC501.6TPE150MAZB:POS",
+        "U501:OUT"
+      ],
+      "named:USB2_OCP_FAULT#": [
+        "R501.R:P1"
+      ],
+      "named:USB2_OC_EN#": [
+        "C502.C:P1",
+        "R502.R:P2",
+        "R503.R:P2",
+        "U501:EN"
+      ]
+    },
+    "topology_extra_in_local": [],
+    "topology_missing_from_local": []
+  },
+  "description_footprints": {
+    "description_differences": [
+      {
+        "actual_description": "",
+        "actual_footprint": "R0603",
+        "expected_description": "R0603",
+        "path": "R501.R"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "R0603",
+        "expected_description": "R0603",
+        "path": "R502.R"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "R0603",
+        "expected_description": "R0603",
+        "path": "R503.R"
+      },
+      {
+        "actual_description": "",
+        "actual_footprint": "R0603",
+        "expected_description": "R0603",
+        "path": "R504.R"
+      }
+    ],
+    "package_differences": [
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "component_type": "Capacitor",
+        "expected_registry_package": "0402",
+        "path": "C501.C"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "component_type": "Capacitor",
+        "expected_registry_package": "0402",
+        "path": "C502.C"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "component_type": "Capacitor",
+        "expected_registry_package": "0402",
+        "path": "C503.C"
+      },
+      {
+        "actual_footprint": "R0603",
+        "actual_normalized_package": "0603",
+        "component_type": "Resistor",
+        "expected_registry_package": "0402",
+        "path": "R501.R"
+      },
+      {
+        "actual_footprint": "R0603",
+        "actual_normalized_package": "0603",
+        "component_type": "Resistor",
+        "expected_registry_package": "0402",
+        "path": "R502.R"
+      },
+      {
+        "actual_footprint": "R0603",
+        "actual_normalized_package": "0603",
+        "component_type": "Resistor",
+        "expected_registry_package": "0402",
+        "path": "R503.R"
+      },
+      {
+        "actual_footprint": "R0603",
+        "actual_normalized_package": "0603",
+        "component_type": "Resistor",
+        "expected_registry_package": "0402",
+        "path": "R504.R"
+      }
+    ],
+    "unverified": [
+      {
+        "actual_description": "",
+        "component_type": "Capacitor",
+        "path": "C501.C",
+        "reason": "Footprint is empty and Usb3Ocp does not establish the local 0402 Description-code spelling",
+        "registry_package": "0402"
+      },
+      {
+        "actual_description": "",
+        "component_type": "Capacitor",
+        "path": "C502.C",
+        "reason": "Footprint is empty and Usb3Ocp does not establish the local 0402 Description-code spelling",
+        "registry_package": "0402"
+      },
+      {
+        "actual_description": "",
+        "component_type": "Capacitor",
+        "path": "C503.C",
+        "reason": "Footprint is empty and Usb3Ocp does not establish the local 0402 Description-code spelling",
+        "registry_package": "0402"
+      },
+      {
+        "path": "TC501.6TPE150MAZB",
+        "reason": "Registry BOM has no generic passive package-to-Description assertion"
+      },
+      {
+        "path": "U501",
+        "reason": "Registry BOM has no generic passive package-to-Description assertion"
+      }
+    ]
+  },
+  "identical": false,
+  "normalizations": [
+    "Registry leaf paths such as C501.C map to source reference C501",
+    "TC501.6TPE150MAZB maps to source reference TC501",
+    "U501 N_FAULT/PAD map to registry ~{FAULT}/EP",
+    "TC501 P1/P2 map to registry POS/NEG",
+    "Unpolarized two-pin passive orientation is ignored",
+    "One leading KiCad root-scope slash is removed from named nets",
+    "SI-equivalent values and source underscore/ohm/tolerance spellings are normalized",
+    "UUIDs, ordering, placement, and graphics are ignored",
+    "No 0402 Description-code spelling is guessed without a registry/source assertion"
+  ],
+  "reference_designators": {
+    "checked_count": 9,
+    "differences": [],
+    "identity_source": "KiCad Reference, because USB3.kicad_sch has no placed Path properties"
+  },
+  "schema_version": 1,
+  "source_file_unchanged": true,
+  "status": "different",
+  "summary": {
+    "all_net_names_present": false,
+    "bom_identical": false,
+    "component_difference_count": 9,
+    "description_footprint_difference_count": 11,
+    "description_footprints_identical": false,
+    "electrical_topology_identical": true,
+    "hard_difference_count": 21,
+    "net_name_difference_count": 1,
+    "reference_designator_difference_count": 0,
+    "reference_designators_identical": true,
+    "topology_difference_count": 0
+  },
+  "target": "/Users/colton/Desktop/smarc_pcie/USB3.kicad_sch",
+  "target_sha256": "9d12324a6e8a8c13dc4eb4d29278c3133b4defb9467e834893380e137874fa73"
+}
