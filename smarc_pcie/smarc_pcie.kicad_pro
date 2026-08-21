@@ -441,7 +441,7 @@
         "uuid": "c081980d-49b2-44a7-8b5b-5f80549301c3"
       }
     ],
-    "used_designators": "TP1-7,RP2-15,PL2,PQ1-4,J1-6,ESD602,PR3,PR5,PR7,PR9,PR12-14,PR16,PR18-19,R1,R501-552,R602-612,TC501-502,ES604-606,Q1-2,PTC24-30,U1-17,U501-502,FB1,C1-10,C501-507,C604-607,C609,C612-619,SW1-3,D1-9,#PWR1-125,PC2-10,PC15-16,PC21,PC28-83,PC2766-2770,F1,L1,L602-606",
+    "used_designators": "ESD602,TC501-502,ES604-606,PTC24-28,PR3,PR5,PR7,PR9,PR12-14,PR16,PR18-19,R1,R501-509,R602-612,PC2-10,PC15-16,PC21,PC29-36,PC41,PC2766-2770,FB1,U1-2,U501-502,C1-10,C501-507,C604-607,C609,C612,D1-3,#PWR1-46,J1,PQ1-4,PL2,L1,L602-606",
     "variants": []
   },
   "sheets": [
@@ -454,40 +454,24 @@
       "Power Supply"
     ],
     [
-      "94890e56-b635-4351-9071-a6f928476ad7",
-      "Power Sequence"
-    ],
-    [
-      "80cd2927-fd60-4af3-b536-f4b79f6d2098",
-      "USB 3.0 Power"
+      "31f20ea0-4518-4395-8ebf-7d466529d276",
+      "x16 Card Slot"
     ],
     [
       "03132480-5043-438d-826b-cc5650ba5002",
       "USB 3.0"
     ],
     [
-      "31f20ea0-4518-4395-8ebf-7d466529d276",
-      "x16 Card Slot"
+      "80cd2927-fd60-4af3-b536-f4b79f6d2098",
+      "USB 3.0 Power"
     ],
     [
       "ca65e134-9914-4609-bcf0-9d5f35b2e960",
       "Display Port"
     ],
     [
-      "13c3d72f-61b5-4ea8-9910-43f8b37490cb",
-      "GPIO"
-    ],
-    [
-      "9832172c-46bd-4e96-ab7b-d91ac5266efa",
-      "uSD-CARD"
-    ],
-    [
-      "4c239ec6-5f94-4dde-8bed-ff93fe3c206e",
-      "Switches and Reset"
-    ],
-    [
-      "fb9fdc01-da30-4344-a6ea-55b5a2b3e67a",
-      "Smarc Connector"
+      "b258d890-1def-424d-bdc5-24276212cb65",
+      "Power Gates"
     ]
   ],
   "text_variables": {},

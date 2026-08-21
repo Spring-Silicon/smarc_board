@@ -1,0 +1,2176 @@
+{
+  "baseline": {
+    "commit": "7e0358dc08deb6769dbafc4cd6309c77c9b47f1a",
+    "entrypoint": "smarc_carrier/SMARC_USB3.0_DUAL_PORTS/SMARC_USB3.0_DUAL_PORTS.zen",
+    "package": "code.diode.computer/spring/registry/smarc_carrier/SMARC_USB3.0_DUAL_PORTS",
+    "pcb_version": "pcbc 0.4.30",
+    "version": "0.1.0"
+  },
+  "commands": {
+    "functional_interface_normalizations": {
+      "changes": [
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "B601.FB"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C603.C"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C604.C"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C605.C"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C606.C"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C607.C"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C608.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C610.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C611.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C609.R"
+        },
+        {
+          "kind": "connector-interface",
+          "mapping": {
+            "D1_NEG": "BOT.D.N",
+            "D1_POS": "BOT.D.P",
+            "D2_NEG": "TOP.D.N",
+            "D2_POS": "TOP.D.P",
+            "DRAIN1": "GND",
+            "DRAIN2": "GND",
+            "GND1": "GND",
+            "GND2": "GND",
+            "SHIELD": "SHIELD",
+            "SSRX1_NEG": "BOT.SSRX.N",
+            "SSRX1_POS": "BOT.SSRX.P",
+            "SSRX2_NEG": "TOP.SSRX.N",
+            "SSRX2_POS": "TOP.SSRX.P",
+            "SSTX1_NEG": "BOT.SSTX.N",
+            "SSTX1_POS": "BOT.SSTX.P",
+            "SSTX2_NEG": "TOP.SSTX.N",
+            "SSTX2_POS": "TOP.SSTX.P",
+            "VBUS1": "VBUS_BOT",
+            "VBUS2": "VBUS_TOP"
+          },
+          "path": "CN601.J"
+        },
+        {
+          "kind": "data-esd-interface",
+          "mapping": {
+            "D1_NEG": "CH2_A",
+            "D1_POS": "CH1_A",
+            "D2_NEG": "CH4_A",
+            "D2_POS": "CH3_A",
+            "GND_3": "GND",
+            "GND_8": "GND",
+            "NC_10": "CH1_B",
+            "NC_6": "CH4_B",
+            "NC_7": "CH3_B",
+            "NC_9": "CH2_B"
+          },
+          "path": "ESD603.D"
+        },
+        {
+          "kind": "data-esd-interface",
+          "mapping": {
+            "D1_NEG": "CH2_A",
+            "D1_POS": "CH1_A",
+            "D2_NEG": "CH4_A",
+            "D2_POS": "CH3_A",
+            "GND_3": "GND",
+            "GND_8": "GND",
+            "NC_10": "CH1_B",
+            "NC_6": "CH4_B",
+            "NC_7": "CH3_B",
+            "NC_9": "CH2_B"
+          },
+          "path": "ESD604.D"
+        },
+        {
+          "kind": "data-esd-channel-permutation",
+          "mapping": {
+            "D1_NEG": "CH1_A",
+            "D1_POS": "CH2_A",
+            "D2_NEG": "CH3_A",
+            "D2_POS": "CH4_A",
+            "GND_3": "GND",
+            "GND_8": "GND",
+            "NC_10": "CH2_B",
+            "NC_6": "CH3_B",
+            "NC_7": "CH4_B",
+            "NC_9": "CH1_B"
+          },
+          "path": "ESD605.D"
+        },
+        {
+          "kind": "vbus-esd-interface",
+          "mapping": {
+            "A1": "P2",
+            "A2": "P1"
+          },
+          "path": "ESD601.D"
+        },
+        {
+          "kind": "vbus-esd-interface",
+          "mapping": {
+            "A1": "P2",
+            "A2": "P1"
+          },
+          "path": "ESD602.D"
+        },
+        {
+          "kind": "common-mode-choke-interface",
+          "mapping": {
+            "P1": "IN_A",
+            "P2": "OUT_A",
+            "P3": "OUT_B",
+            "P4": "IN_B"
+          },
+          "path": "L601.FL"
+        },
+        {
+          "kind": "common-mode-choke-winding-permutation",
+          "mapping": {
+            "P1": "IN_B",
+            "P2": "OUT_B",
+            "P3": "OUT_A",
+            "P4": "IN_A"
+          },
+          "path": "L602.FL"
+        },
+        {
+          "kind": "common-mode-choke-winding-permutation",
+          "mapping": {
+            "P1": "IN_B",
+            "P2": "OUT_B",
+            "P3": "OUT_A",
+            "P4": "IN_A"
+          },
+          "path": "L603.FL"
+        },
+        {
+          "kind": "common-mode-choke-interface",
+          "mapping": {
+            "P1": "IN_A",
+            "P2": "OUT_A",
+            "P3": "OUT_B",
+            "P4": "IN_B"
+          },
+          "path": "L604.FL"
+        },
+        {
+          "kind": "common-mode-choke-winding-permutation",
+          "mapping": {
+            "P1": "IN_B",
+            "P2": "OUT_B",
+            "P3": "OUT_A",
+            "P4": "IN_A"
+          },
+          "path": "L605.FL"
+        },
+        {
+          "kind": "common-mode-choke-winding-permutation",
+          "mapping": {
+            "P1": "IN_B",
+            "P2": "OUT_B",
+            "P3": "OUT_A",
+            "P4": "IN_A"
+          },
+          "path": "L606.FL"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R601.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R602.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R603.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R604.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R605.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R606.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R607.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R608.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R609.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R610.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R611.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R612.R"
+        }
+      ],
+      "coalescing_conflicts": []
+    },
+    "local_import": {
+      "errors": 15,
+      "generated_zen": "/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/usb3-dual-identity-t13r69u4/imported/USB3.zen",
+      "returncode": 0,
+      "tail": "\u2502 schematic.erc.pin_not_connected      12                  -                   \u2502\n\u2502 schematic.erc.power_pin_not_driven   3                   -                   \u2502\n\u2502 Total                                15                  37                  \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\nWarning: KiCad ERC/DRC reported 15 errors; these do not block import.\nWarning: 34 component(s) have unresolved footprints: <missing footprint>. The board imported with connectivity intact but is not layout-ready.\nPassive detection (2-pad only): R=0 (h:0 m:0 l:0), C=0 (h:0 m:0 l:0), unknown:0, known-non-2-pad:0, pad-count-unknown:34\nValidated generated Zener against 32 physical-pin partition(s)\nWrote imported board to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/usb3-dual-identity-t13r69u4/imported/USB3.zen\nWrote import extraction report to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/usb3-dual-identity-t13r69u4/imported/.kicad.import.extraction.json\nWrote import validation diagnostics to /private/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/usb3-dual-identity-t13r69u4/imported/.kicad.validation.diagnostics.json",
+      "warnings": 39
+    },
+    "reference_bom": {
+      "command": "pcb bom --offline --format json /private/tmp/smarc-usb3-dual-v0.1.0.NkC4hf/registry/smarc_carrier/SMARC_USB3.0_DUAL_PORTS/SMARC_USB3.0_DUAL_PORTS.zen",
+      "component_count": 34
+    },
+    "reference_validation": {
+      "command": "pcb build --offline --diagnostics - /private/tmp/smarc-usb3-dual-v0.1.0.NkC4hf/registry/smarc_carrier/SMARC_USB3.0_DUAL_PORTS/SMARC_USB3.0_DUAL_PORTS.zen",
+      "output": "\u2713 SMARC_USB3.0_DUAL_PORTS.zen (34 components)\n{\n  \"smarc_carrier/SMARC_USB3.0_DUAL_PORTS/SMARC_USB3.0_DUAL_PORTS.zen\": []\n}"
+    },
+    "strict_interface_normalizations": {
+      "changes": [
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "B601.FB"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C603.C"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C604.C"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C605.C"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C606.C"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C607.C"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C608.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "C611.R"
+        },
+        {
+          "kind": "connector-interface",
+          "mapping": {
+            "D1_NEG": "BOT.D.N",
+            "D1_POS": "BOT.D.P",
+            "D2_NEG": "TOP.D.N",
+            "D2_POS": "TOP.D.P",
+            "DRAIN1": "GND",
+            "DRAIN2": "GND",
+            "GND1": "GND",
+            "GND2": "GND",
+            "SHIELD": "SHIELD",
+            "SSRX1_NEG": "BOT.SSRX.N",
+            "SSRX1_POS": "BOT.SSRX.P",
+            "SSRX2_NEG": "TOP.SSRX.N",
+            "SSRX2_POS": "TOP.SSRX.P",
+            "SSTX1_NEG": "BOT.SSTX.N",
+            "SSTX1_POS": "BOT.SSTX.P",
+            "SSTX2_NEG": "TOP.SSTX.N",
+            "SSTX2_POS": "TOP.SSTX.P",
+            "VBUS1": "VBUS_BOT",
+            "VBUS2": "VBUS_TOP"
+          },
+          "path": "CN601.J"
+        },
+        {
+          "kind": "data-esd-interface",
+          "mapping": {
+            "D1_NEG": "CH2_A",
+            "D1_POS": "CH1_A",
+            "D2_NEG": "CH4_A",
+            "D2_POS": "CH3_A",
+            "GND_3": "GND",
+            "GND_8": "GND",
+            "NC_10": "CH1_B",
+            "NC_6": "CH4_B",
+            "NC_7": "CH3_B",
+            "NC_9": "CH2_B"
+          },
+          "path": "ESD603.D"
+        },
+        {
+          "kind": "data-esd-interface",
+          "mapping": {
+            "D1_NEG": "CH2_A",
+            "D1_POS": "CH1_A",
+            "D2_NEG": "CH4_A",
+            "D2_POS": "CH3_A",
+            "GND_3": "GND",
+            "GND_8": "GND",
+            "NC_10": "CH1_B",
+            "NC_6": "CH4_B",
+            "NC_7": "CH3_B",
+            "NC_9": "CH2_B"
+          },
+          "path": "ESD604.D"
+        },
+        {
+          "kind": "data-esd-channel-permutation",
+          "mapping": {
+            "D1_NEG": "CH1_A",
+            "D1_POS": "CH2_A",
+            "D2_NEG": "CH3_A",
+            "D2_POS": "CH4_A",
+            "GND_3": "GND",
+            "GND_8": "GND",
+            "NC_10": "CH2_B",
+            "NC_6": "CH3_B",
+            "NC_7": "CH4_B",
+            "NC_9": "CH1_B"
+          },
+          "path": "ESD605.D"
+        },
+        {
+          "kind": "vbus-esd-interface",
+          "mapping": {
+            "A1": "P2",
+            "A2": "P1"
+          },
+          "path": "ESD601.D"
+        },
+        {
+          "kind": "vbus-esd-interface",
+          "mapping": {
+            "A1": "P2",
+            "A2": "P1"
+          },
+          "path": "ESD602.D"
+        },
+        {
+          "kind": "common-mode-choke-interface",
+          "mapping": {
+            "P1": "IN_A",
+            "P2": "OUT_A",
+            "P3": "OUT_B",
+            "P4": "IN_B"
+          },
+          "path": "L601.FL"
+        },
+        {
+          "kind": "common-mode-choke-winding-permutation",
+          "mapping": {
+            "P1": "IN_B",
+            "P2": "OUT_B",
+            "P3": "OUT_A",
+            "P4": "IN_A"
+          },
+          "path": "L602.FL"
+        },
+        {
+          "kind": "common-mode-choke-winding-permutation",
+          "mapping": {
+            "P1": "IN_B",
+            "P2": "OUT_B",
+            "P3": "OUT_A",
+            "P4": "IN_A"
+          },
+          "path": "L603.FL"
+        },
+        {
+          "kind": "common-mode-choke-interface",
+          "mapping": {
+            "P1": "IN_A",
+            "P2": "OUT_A",
+            "P3": "OUT_B",
+            "P4": "IN_B"
+          },
+          "path": "L604.FL"
+        },
+        {
+          "kind": "common-mode-choke-winding-permutation",
+          "mapping": {
+            "P1": "IN_B",
+            "P2": "OUT_B",
+            "P3": "OUT_A",
+            "P4": "IN_A"
+          },
+          "path": "L605.FL"
+        },
+        {
+          "kind": "common-mode-choke-winding-permutation",
+          "mapping": {
+            "P1": "IN_B",
+            "P2": "OUT_B",
+            "P3": "OUT_A",
+            "P4": "IN_A"
+          },
+          "path": "L606.FL"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R601.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R602.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R603.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R604.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R605.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R606.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R607.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R608.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R609.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R610.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R611.R"
+        },
+        {
+          "kind": "unpolarized-passive-swap",
+          "mapping": {
+            "P1": "P2",
+            "P2": "P1"
+          },
+          "path": "R612.R"
+        }
+      ],
+      "coalescing_conflicts": []
+    },
+    "temporary_flattening": {
+      "flattened_root_uuid": "d639f0c9-f551-4b04-99f2-248bc04fb7b6",
+      "instance_path_replacements": 47,
+      "project_replacements": 47,
+      "temporary_file": "/var/folders/0f/9f_f6_jx1bq6cmtg6_3q_m980000gn/T/usb3-dual-identity-t13r69u4/USB3.kicad_sch"
+    }
+  },
+  "components": {
+    "advisories": [],
+    "differences": [
+      {
+        "actual": null,
+        "expected": "BLM18PG121SN1D",
+        "field": "mpn",
+        "path": "B601.FB"
+      },
+      {
+        "actual": "120 100mhz 1.5a",
+        "expected": "120 2a 100mhz",
+        "field": "value",
+        "path": "B601.FB"
+      },
+      {
+        "actual": null,
+        "expected": "GRM21BR61A476ME15L",
+        "field": "mpn",
+        "path": "C603.C"
+      },
+      {
+        "actual": null,
+        "expected": "GRM155R71A104KA01D",
+        "field": "mpn",
+        "path": "C604.C"
+      },
+      {
+        "actual": null,
+        "expected": "GRM155R71A104KA01D",
+        "field": "mpn",
+        "path": "C605.C"
+      },
+      {
+        "actual": false,
+        "expected": true,
+        "field": "dnp",
+        "path": "C606.C"
+      },
+      {
+        "actual": null,
+        "expected": "GRM21BR61A476ME15L",
+        "field": "mpn",
+        "path": "C606.C"
+      },
+      {
+        "actual": null,
+        "expected": "GRM1555C1H221JA01D",
+        "field": "mpn",
+        "path": "C607.C"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "C608.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "C609.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "C611.R"
+      },
+      {
+        "actual": null,
+        "expected": "692141030100",
+        "field": "mpn",
+        "path": "CN601.J"
+      },
+      {
+        "actual": null,
+        "expected": "DLW21SH900HQ2L",
+        "field": "mpn",
+        "path": "L601.FL"
+      },
+      {
+        "actual": null,
+        "expected": "DLW21SH900HQ2L",
+        "field": "mpn",
+        "path": "L602.FL"
+      },
+      {
+        "actual": null,
+        "expected": "DLW21SH900HQ2L",
+        "field": "mpn",
+        "path": "L603.FL"
+      },
+      {
+        "actual": null,
+        "expected": "DLW21SH900HQ2L",
+        "field": "mpn",
+        "path": "L604.FL"
+      },
+      {
+        "actual": null,
+        "expected": "DLW21SH900HQ2L",
+        "field": "mpn",
+        "path": "L605.FL"
+      },
+      {
+        "actual": null,
+        "expected": "DLW21SH900HQ2L",
+        "field": "mpn",
+        "path": "L606.FL"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R601.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R602.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R603.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R604.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R605.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R606.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R607.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R608.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R609.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R610.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R611.R"
+      },
+      {
+        "actual": null,
+        "expected": "RC0402FR-070RL",
+        "field": "mpn",
+        "path": "R612.R"
+      }
+    ],
+    "extra_in_local": [
+      "@reference:C612",
+      "@reference:ES603",
+      "@reference:ES604",
+      "@reference:ES605"
+    ],
+    "local_count": 34,
+    "missing_from_local": [
+      "C610.R",
+      "ESD603.D",
+      "ESD604.D",
+      "ESD605.D"
+    ],
+    "reference_count": 34
+  },
+  "connectivity": {
+    "differences": [
+      {
+        "actual": "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2",
+        "endpoint": "C603.C:P1",
+        "expected": "named:P_VBUS_USB2"
+      },
+      {
+        "actual": "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2",
+        "endpoint": "C604.C:P1",
+        "expected": "named:P_VBUS_USB2"
+      },
+      {
+        "actual": "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2",
+        "endpoint": "C605.C:P1",
+        "expected": "named:P_VBUS_USB3"
+      },
+      {
+        "actual": "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2",
+        "endpoint": "C606.C:P1",
+        "expected": "named:P_VBUS_USB3"
+      },
+      {
+        "actual": "named:USB3_SSTXN_C",
+        "endpoint": "C609.R:P1",
+        "expected": "named:USB3_SSTXP"
+      },
+      {
+        "actual": "named:USB3_SSTXN",
+        "endpoint": "C609.R:P2",
+        "expected": "named:USB3_SSTXP_C"
+      },
+      {
+        "actual": "named:USB3_SSTXP_C",
+        "endpoint": "C610.R:P1",
+        "expected": "named:USB3_SSTXN"
+      },
+      {
+        "actual": "named:USB3_SSTXP",
+        "endpoint": "C610.R:P2",
+        "expected": "named:USB3_SSTXN_C"
+      },
+      {
+        "actual": "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2",
+        "endpoint": "CN601.J:VBUS_BOT",
+        "expected": "named:P_VBUS_USB2"
+      },
+      {
+        "actual": "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2",
+        "endpoint": "CN601.J:VBUS_TOP",
+        "expected": "named:P_VBUS_USB3"
+      },
+      {
+        "actual": "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2",
+        "endpoint": "ESD601.D:P2",
+        "expected": "named:P_VBUS_USB2"
+      },
+      {
+        "actual": "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2",
+        "endpoint": "ESD602.D:P2",
+        "expected": "named:P_VBUS_USB3"
+      }
+    ],
+    "extra_in_local": [],
+    "local_conflicts": [],
+    "local_endpoint_count": 115,
+    "local_nets": {
+      "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2": [
+        "C603.C:P1",
+        "C604.C:P1",
+        "CN601.J:VBUS_BOT",
+        "ESD601.D:P2"
+      ],
+      "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2": [
+        "C605.C:P1",
+        "C606.C:P1",
+        "CN601.J:VBUS_TOP",
+        "ESD602.D:P2"
+      ],
+      "named:GND": [
+        "B601.FB:P2",
+        "C603.C:P2",
+        "C604.C:P2",
+        "C605.C:P2",
+        "C606.C:P2",
+        "C607.C:P2",
+        "CN601.J:GND",
+        "ESD601.D:P1",
+        "ESD602.D:P1",
+        "ESD603.D:GND",
+        "ESD604.D:GND",
+        "ESD605.D:GND"
+      ],
+      "named:USB23_PE": [
+        "B601.FB:P1",
+        "C607.C:P1",
+        "CN601.J:SHIELD"
+      ],
+      "named:USB2_DN": [
+        "L601.FL:IN_A",
+        "R602.R:P1"
+      ],
+      "named:USB2_DN_L": [
+        "CN601.J:BOT.D.N",
+        "ESD603.D:CH2_A",
+        "ESD603.D:CH2_B",
+        "L601.FL:OUT_A",
+        "R602.R:P2"
+      ],
+      "named:USB2_DP": [
+        "L601.FL:IN_B",
+        "R601.R:P1"
+      ],
+      "named:USB2_DP_L": [
+        "CN601.J:BOT.D.P",
+        "ESD603.D:CH1_A",
+        "ESD603.D:CH1_B",
+        "L601.FL:OUT_B",
+        "R601.R:P2"
+      ],
+      "named:USB2_SSRXN": [
+        "L603.FL:IN_B",
+        "R606.R:P1"
+      ],
+      "named:USB2_SSRXN_L": [
+        "CN601.J:BOT.SSRX.N",
+        "ESD605.D:CH1_A",
+        "ESD605.D:CH1_B",
+        "L603.FL:OUT_B",
+        "R606.R:P2"
+      ],
+      "named:USB2_SSRXP": [
+        "L603.FL:IN_A",
+        "R605.R:P1"
+      ],
+      "named:USB2_SSRXP_L": [
+        "CN601.J:BOT.SSRX.P",
+        "ESD605.D:CH2_A",
+        "ESD605.D:CH2_B",
+        "L603.FL:OUT_A",
+        "R605.R:P2"
+      ],
+      "named:USB2_SSTXN": [
+        "C608.R:P1"
+      ],
+      "named:USB2_SSTXN_C": [
+        "C608.R:P2",
+        "L602.FL:IN_B",
+        "R604.R:P1"
+      ],
+      "named:USB2_SSTXN_L": [
+        "CN601.J:BOT.SSTX.N",
+        "ESD604.D:CH2_A",
+        "ESD604.D:CH2_B",
+        "L602.FL:OUT_B",
+        "R604.R:P2"
+      ],
+      "named:USB2_SSTXP": [
+        "C611.R:P1"
+      ],
+      "named:USB2_SSTXP_C": [
+        "C611.R:P2",
+        "L602.FL:IN_A",
+        "R603.R:P1"
+      ],
+      "named:USB2_SSTXP_L": [
+        "CN601.J:BOT.SSTX.P",
+        "ESD604.D:CH1_A",
+        "ESD604.D:CH1_B",
+        "L602.FL:OUT_A",
+        "R603.R:P2"
+      ],
+      "named:USB3_DN": [
+        "L604.FL:IN_A",
+        "R608.R:P1"
+      ],
+      "named:USB3_DN_L": [
+        "CN601.J:TOP.D.N",
+        "ESD603.D:CH4_A",
+        "ESD603.D:CH4_B",
+        "L604.FL:OUT_A",
+        "R608.R:P2"
+      ],
+      "named:USB3_DP": [
+        "L604.FL:IN_B",
+        "R607.R:P1"
+      ],
+      "named:USB3_DP_L": [
+        "CN601.J:TOP.D.P",
+        "ESD603.D:CH3_A",
+        "ESD603.D:CH3_B",
+        "L604.FL:OUT_B",
+        "R607.R:P2"
+      ],
+      "named:USB3_SSRXN": [
+        "L606.FL:IN_B",
+        "R612.R:P1"
+      ],
+      "named:USB3_SSRXN_L": [
+        "CN601.J:TOP.SSRX.N",
+        "ESD605.D:CH3_A",
+        "ESD605.D:CH3_B",
+        "L606.FL:OUT_B",
+        "R612.R:P2"
+      ],
+      "named:USB3_SSRXP": [
+        "L606.FL:IN_A",
+        "R611.R:P1"
+      ],
+      "named:USB3_SSRXP_L": [
+        "CN601.J:TOP.SSRX.P",
+        "ESD605.D:CH4_A",
+        "ESD605.D:CH4_B",
+        "L606.FL:OUT_A",
+        "R611.R:P2"
+      ],
+      "named:USB3_SSTXN": [
+        "C609.R:P2"
+      ],
+      "named:USB3_SSTXN_C": [
+        "C609.R:P1",
+        "L605.FL:IN_B",
+        "R610.R:P1"
+      ],
+      "named:USB3_SSTXN_L": [
+        "CN601.J:TOP.SSTX.N",
+        "ESD604.D:CH4_A",
+        "ESD604.D:CH4_B",
+        "L605.FL:OUT_B",
+        "R610.R:P2"
+      ],
+      "named:USB3_SSTXP": [
+        "C610.R:P2"
+      ],
+      "named:USB3_SSTXP_C": [
+        "C610.R:P1",
+        "L605.FL:IN_A",
+        "R609.R:P1"
+      ],
+      "named:USB3_SSTXP_L": [
+        "CN601.J:TOP.SSTX.P",
+        "ESD604.D:CH3_A",
+        "ESD604.D:CH3_B",
+        "L605.FL:OUT_A",
+        "R609.R:P2"
+      ]
+    },
+    "missing_from_local": [],
+    "net_name_differences": [
+      {
+        "actual": "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2",
+        "endpoints": [
+          "C603.C:P1",
+          "C604.C:P1",
+          "CN601.J:VBUS_BOT",
+          "ESD601.D:P2"
+        ],
+        "expected": "named:P_VBUS_USB2"
+      },
+      {
+        "actual": "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2",
+        "endpoints": [
+          "C605.C:P1",
+          "C606.C:P1",
+          "CN601.J:VBUS_TOP",
+          "ESD602.D:P2"
+        ],
+        "expected": "named:P_VBUS_USB3"
+      }
+    ],
+    "reference_conflicts": [],
+    "reference_endpoint_count": 115,
+    "reference_nets": {
+      "named:GND": [
+        "B601.FB:P2",
+        "C603.C:P2",
+        "C604.C:P2",
+        "C605.C:P2",
+        "C606.C:P2",
+        "C607.C:P2",
+        "CN601.J:GND",
+        "ESD601.D:P1",
+        "ESD602.D:P1",
+        "ESD603.D:GND",
+        "ESD604.D:GND",
+        "ESD605.D:GND"
+      ],
+      "named:P_VBUS_USB2": [
+        "C603.C:P1",
+        "C604.C:P1",
+        "CN601.J:VBUS_BOT",
+        "ESD601.D:P2"
+      ],
+      "named:P_VBUS_USB3": [
+        "C605.C:P1",
+        "C606.C:P1",
+        "CN601.J:VBUS_TOP",
+        "ESD602.D:P2"
+      ],
+      "named:USB23_PE": [
+        "B601.FB:P1",
+        "C607.C:P1",
+        "CN601.J:SHIELD"
+      ],
+      "named:USB2_DN": [
+        "L601.FL:IN_A",
+        "R602.R:P1"
+      ],
+      "named:USB2_DN_L": [
+        "CN601.J:BOT.D.N",
+        "ESD603.D:CH2_A",
+        "ESD603.D:CH2_B",
+        "L601.FL:OUT_A",
+        "R602.R:P2"
+      ],
+      "named:USB2_DP": [
+        "L601.FL:IN_B",
+        "R601.R:P1"
+      ],
+      "named:USB2_DP_L": [
+        "CN601.J:BOT.D.P",
+        "ESD603.D:CH1_A",
+        "ESD603.D:CH1_B",
+        "L601.FL:OUT_B",
+        "R601.R:P2"
+      ],
+      "named:USB2_SSRXN": [
+        "L603.FL:IN_B",
+        "R606.R:P1"
+      ],
+      "named:USB2_SSRXN_L": [
+        "CN601.J:BOT.SSRX.N",
+        "ESD605.D:CH1_A",
+        "ESD605.D:CH1_B",
+        "L603.FL:OUT_B",
+        "R606.R:P2"
+      ],
+      "named:USB2_SSRXP": [
+        "L603.FL:IN_A",
+        "R605.R:P1"
+      ],
+      "named:USB2_SSRXP_L": [
+        "CN601.J:BOT.SSRX.P",
+        "ESD605.D:CH2_A",
+        "ESD605.D:CH2_B",
+        "L603.FL:OUT_A",
+        "R605.R:P2"
+      ],
+      "named:USB2_SSTXN": [
+        "C608.R:P1"
+      ],
+      "named:USB2_SSTXN_C": [
+        "C608.R:P2",
+        "L602.FL:IN_B",
+        "R604.R:P1"
+      ],
+      "named:USB2_SSTXN_L": [
+        "CN601.J:BOT.SSTX.N",
+        "ESD604.D:CH2_A",
+        "ESD604.D:CH2_B",
+        "L602.FL:OUT_B",
+        "R604.R:P2"
+      ],
+      "named:USB2_SSTXP": [
+        "C611.R:P1"
+      ],
+      "named:USB2_SSTXP_C": [
+        "C611.R:P2",
+        "L602.FL:IN_A",
+        "R603.R:P1"
+      ],
+      "named:USB2_SSTXP_L": [
+        "CN601.J:BOT.SSTX.P",
+        "ESD604.D:CH1_A",
+        "ESD604.D:CH1_B",
+        "L602.FL:OUT_A",
+        "R603.R:P2"
+      ],
+      "named:USB3_DN": [
+        "L604.FL:IN_A",
+        "R608.R:P1"
+      ],
+      "named:USB3_DN_L": [
+        "CN601.J:TOP.D.N",
+        "ESD603.D:CH4_A",
+        "ESD603.D:CH4_B",
+        "L604.FL:OUT_A",
+        "R608.R:P2"
+      ],
+      "named:USB3_DP": [
+        "L604.FL:IN_B",
+        "R607.R:P1"
+      ],
+      "named:USB3_DP_L": [
+        "CN601.J:TOP.D.P",
+        "ESD603.D:CH3_A",
+        "ESD603.D:CH3_B",
+        "L604.FL:OUT_B",
+        "R607.R:P2"
+      ],
+      "named:USB3_SSRXN": [
+        "L606.FL:IN_B",
+        "R612.R:P1"
+      ],
+      "named:USB3_SSRXN_L": [
+        "CN601.J:TOP.SSRX.N",
+        "ESD605.D:CH3_A",
+        "ESD605.D:CH3_B",
+        "L606.FL:OUT_B",
+        "R612.R:P2"
+      ],
+      "named:USB3_SSRXP": [
+        "L606.FL:IN_A",
+        "R611.R:P1"
+      ],
+      "named:USB3_SSRXP_L": [
+        "CN601.J:TOP.SSRX.P",
+        "ESD605.D:CH4_A",
+        "ESD605.D:CH4_B",
+        "L606.FL:OUT_A",
+        "R611.R:P2"
+      ],
+      "named:USB3_SSTXN": [
+        "C610.R:P1"
+      ],
+      "named:USB3_SSTXN_C": [
+        "C610.R:P2",
+        "L605.FL:IN_B",
+        "R610.R:P1"
+      ],
+      "named:USB3_SSTXN_L": [
+        "CN601.J:TOP.SSTX.N",
+        "ESD604.D:CH4_A",
+        "ESD604.D:CH4_B",
+        "L605.FL:OUT_B",
+        "R610.R:P2"
+      ],
+      "named:USB3_SSTXP": [
+        "C609.R:P1"
+      ],
+      "named:USB3_SSTXP_C": [
+        "C609.R:P2",
+        "L605.FL:IN_A",
+        "R609.R:P1"
+      ],
+      "named:USB3_SSTXP_L": [
+        "CN601.J:TOP.SSTX.P",
+        "ESD604.D:CH3_A",
+        "ESD604.D:CH3_B",
+        "L605.FL:OUT_A",
+        "R609.R:P2"
+      ]
+    },
+    "topology_extra_in_local": [
+      [
+        "C609.R:P1",
+        "L605.FL:IN_B",
+        "R610.R:P1"
+      ],
+      [
+        "C609.R:P2"
+      ],
+      [
+        "C610.R:P1",
+        "L605.FL:IN_A",
+        "R609.R:P1"
+      ],
+      [
+        "C610.R:P2"
+      ]
+    ],
+    "topology_missing_from_local": [
+      [
+        "C609.R:P1"
+      ],
+      [
+        "C609.R:P2",
+        "L605.FL:IN_A",
+        "R609.R:P1"
+      ],
+      [
+        "C610.R:P1"
+      ],
+      [
+        "C610.R:P2",
+        "L605.FL:IN_B",
+        "R610.R:P1"
+      ]
+    ]
+  },
+  "descriptions": {
+    "checked_count": 30,
+    "differences": [
+      {
+        "actual_description": "Ferrite bead, small symbol",
+        "expected_registry_description": "120 2A 100MHz",
+        "path": "B601.FB"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "47uF 10V",
+        "path": "C603.C"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "100nF 10V",
+        "path": "C604.C"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "100nF 10V",
+        "path": "C605.C"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "47uF 10V",
+        "path": "C606.C"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "220pF 50V",
+        "path": "C607.C"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "C608.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "C609.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "C611.R"
+      },
+      {
+        "actual_description": "USB 3.0 A connector, stacked",
+        "expected_registry_description": "USB 3.0 Standard-A receptacle, dual stacked, horizontal THT, 2x9 SuperSpeed contacts + 4 board-l ...",
+        "path": "CN601.J"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "INPAQ ESDGUARD EGA10603V05A1-B bidirectional polymer ESD suppressor, 5 Vdc rated, 150 V trigger, ...",
+        "path": "ESD601.D"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "INPAQ ESDGUARD EGA10603V05A1-B bidirectional polymer ESD suppressor, 5 Vdc rated, 150 V trigger, ...",
+        "path": "ESD602.D"
+      },
+      {
+        "actual_description": "Coupled inductor with iron core",
+        "expected_registry_description": "2-line winding-type common-mode choke, 90 Ohm @ 100 MHz +/-25%, 280 mA, DCR 0.416 Ohm max, -40 t ...",
+        "path": "L601.FL"
+      },
+      {
+        "actual_description": "Coupled inductor with iron core",
+        "expected_registry_description": "2-line winding-type common-mode choke, 90 Ohm @ 100 MHz +/-25%, 280 mA, DCR 0.416 Ohm max, -40 t ...",
+        "path": "L602.FL"
+      },
+      {
+        "actual_description": "Coupled inductor with iron core",
+        "expected_registry_description": "2-line winding-type common-mode choke, 90 Ohm @ 100 MHz +/-25%, 280 mA, DCR 0.416 Ohm max, -40 t ...",
+        "path": "L603.FL"
+      },
+      {
+        "actual_description": "Coupled inductor with iron core",
+        "expected_registry_description": "2-line winding-type common-mode choke, 90 Ohm @ 100 MHz +/-25%, 280 mA, DCR 0.416 Ohm max, -40 t ...",
+        "path": "L604.FL"
+      },
+      {
+        "actual_description": "Coupled inductor with iron core",
+        "expected_registry_description": "2-line winding-type common-mode choke, 90 Ohm @ 100 MHz +/-25%, 280 mA, DCR 0.416 Ohm max, -40 t ...",
+        "path": "L605.FL"
+      },
+      {
+        "actual_description": "Coupled inductor with iron core",
+        "expected_registry_description": "2-line winding-type common-mode choke, 90 Ohm @ 100 MHz +/-25%, 280 mA, DCR 0.416 Ohm max, -40 t ...",
+        "path": "L606.FL"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R601.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R602.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R603.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R604.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R605.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R606.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R607.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R608.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R609.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R610.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R611.R"
+      },
+      {
+        "actual_description": "",
+        "expected_registry_description": "0",
+        "path": "R612.R"
+      }
+    ]
+  },
+  "functional_connectivity_after_designator_aliases": {
+    "differences": [
+      {
+        "actual": "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2",
+        "endpoint": "C603.C:P1",
+        "expected": "named:P_VBUS_USB2"
+      },
+      {
+        "actual": "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2",
+        "endpoint": "C604.C:P1",
+        "expected": "named:P_VBUS_USB2"
+      },
+      {
+        "actual": "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2",
+        "endpoint": "C605.C:P1",
+        "expected": "named:P_VBUS_USB3"
+      },
+      {
+        "actual": "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2",
+        "endpoint": "C606.C:P1",
+        "expected": "named:P_VBUS_USB3"
+      },
+      {
+        "actual": "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2",
+        "endpoint": "CN601.J:VBUS_BOT",
+        "expected": "named:P_VBUS_USB2"
+      },
+      {
+        "actual": "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2",
+        "endpoint": "CN601.J:VBUS_TOP",
+        "expected": "named:P_VBUS_USB3"
+      },
+      {
+        "actual": "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2",
+        "endpoint": "ESD601.D:P2",
+        "expected": "named:P_VBUS_USB2"
+      },
+      {
+        "actual": "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2",
+        "endpoint": "ESD602.D:P2",
+        "expected": "named:P_VBUS_USB3"
+      }
+    ],
+    "extra_in_local": [],
+    "local_conflicts": [],
+    "local_endpoint_count": 115,
+    "local_nets": {
+      "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2": [
+        "C603.C:P1",
+        "C604.C:P1",
+        "CN601.J:VBUS_BOT",
+        "ESD601.D:P2"
+      ],
+      "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2": [
+        "C605.C:P1",
+        "C606.C:P1",
+        "CN601.J:VBUS_TOP",
+        "ESD602.D:P2"
+      ],
+      "named:GND": [
+        "B601.FB:P2",
+        "C603.C:P2",
+        "C604.C:P2",
+        "C605.C:P2",
+        "C606.C:P2",
+        "C607.C:P2",
+        "CN601.J:GND",
+        "ESD601.D:P1",
+        "ESD602.D:P1",
+        "ESD603.D:GND",
+        "ESD604.D:GND",
+        "ESD605.D:GND"
+      ],
+      "named:USB23_PE": [
+        "B601.FB:P1",
+        "C607.C:P1",
+        "CN601.J:SHIELD"
+      ],
+      "named:USB2_DN": [
+        "L601.FL:IN_A",
+        "R602.R:P1"
+      ],
+      "named:USB2_DN_L": [
+        "CN601.J:BOT.D.N",
+        "ESD603.D:CH2_A",
+        "ESD603.D:CH2_B",
+        "L601.FL:OUT_A",
+        "R602.R:P2"
+      ],
+      "named:USB2_DP": [
+        "L601.FL:IN_B",
+        "R601.R:P1"
+      ],
+      "named:USB2_DP_L": [
+        "CN601.J:BOT.D.P",
+        "ESD603.D:CH1_A",
+        "ESD603.D:CH1_B",
+        "L601.FL:OUT_B",
+        "R601.R:P2"
+      ],
+      "named:USB2_SSRXN": [
+        "L603.FL:IN_B",
+        "R606.R:P1"
+      ],
+      "named:USB2_SSRXN_L": [
+        "CN601.J:BOT.SSRX.N",
+        "ESD605.D:CH1_A",
+        "ESD605.D:CH1_B",
+        "L603.FL:OUT_B",
+        "R606.R:P2"
+      ],
+      "named:USB2_SSRXP": [
+        "L603.FL:IN_A",
+        "R605.R:P1"
+      ],
+      "named:USB2_SSRXP_L": [
+        "CN601.J:BOT.SSRX.P",
+        "ESD605.D:CH2_A",
+        "ESD605.D:CH2_B",
+        "L603.FL:OUT_A",
+        "R605.R:P2"
+      ],
+      "named:USB2_SSTXN": [
+        "C608.R:P1"
+      ],
+      "named:USB2_SSTXN_C": [
+        "C608.R:P2",
+        "L602.FL:IN_B",
+        "R604.R:P1"
+      ],
+      "named:USB2_SSTXN_L": [
+        "CN601.J:BOT.SSTX.N",
+        "ESD604.D:CH2_A",
+        "ESD604.D:CH2_B",
+        "L602.FL:OUT_B",
+        "R604.R:P2"
+      ],
+      "named:USB2_SSTXP": [
+        "C611.R:P1"
+      ],
+      "named:USB2_SSTXP_C": [
+        "C611.R:P2",
+        "L602.FL:IN_A",
+        "R603.R:P1"
+      ],
+      "named:USB2_SSTXP_L": [
+        "CN601.J:BOT.SSTX.P",
+        "ESD604.D:CH1_A",
+        "ESD604.D:CH1_B",
+        "L602.FL:OUT_A",
+        "R603.R:P2"
+      ],
+      "named:USB3_DN": [
+        "L604.FL:IN_A",
+        "R608.R:P1"
+      ],
+      "named:USB3_DN_L": [
+        "CN601.J:TOP.D.N",
+        "ESD603.D:CH4_A",
+        "ESD603.D:CH4_B",
+        "L604.FL:OUT_A",
+        "R608.R:P2"
+      ],
+      "named:USB3_DP": [
+        "L604.FL:IN_B",
+        "R607.R:P1"
+      ],
+      "named:USB3_DP_L": [
+        "CN601.J:TOP.D.P",
+        "ESD603.D:CH3_A",
+        "ESD603.D:CH3_B",
+        "L604.FL:OUT_B",
+        "R607.R:P2"
+      ],
+      "named:USB3_SSRXN": [
+        "L606.FL:IN_B",
+        "R612.R:P1"
+      ],
+      "named:USB3_SSRXN_L": [
+        "CN601.J:TOP.SSRX.N",
+        "ESD605.D:CH3_A",
+        "ESD605.D:CH3_B",
+        "L606.FL:OUT_B",
+        "R612.R:P2"
+      ],
+      "named:USB3_SSRXP": [
+        "L606.FL:IN_A",
+        "R611.R:P1"
+      ],
+      "named:USB3_SSRXP_L": [
+        "CN601.J:TOP.SSRX.P",
+        "ESD605.D:CH4_A",
+        "ESD605.D:CH4_B",
+        "L606.FL:OUT_A",
+        "R611.R:P2"
+      ],
+      "named:USB3_SSTXN": [
+        "C610.R:P1"
+      ],
+      "named:USB3_SSTXN_C": [
+        "C610.R:P2",
+        "L605.FL:IN_B",
+        "R610.R:P1"
+      ],
+      "named:USB3_SSTXN_L": [
+        "CN601.J:TOP.SSTX.N",
+        "ESD604.D:CH4_A",
+        "ESD604.D:CH4_B",
+        "L605.FL:OUT_B",
+        "R610.R:P2"
+      ],
+      "named:USB3_SSTXP": [
+        "C609.R:P1"
+      ],
+      "named:USB3_SSTXP_C": [
+        "C609.R:P2",
+        "L605.FL:IN_A",
+        "R609.R:P1"
+      ],
+      "named:USB3_SSTXP_L": [
+        "CN601.J:TOP.SSTX.P",
+        "ESD604.D:CH3_A",
+        "ESD604.D:CH3_B",
+        "L605.FL:OUT_A",
+        "R609.R:P2"
+      ]
+    },
+    "missing_from_local": [],
+    "net_name_differences": [
+      {
+        "actual": "anonymous:C603.C:P1|C604.C:P1|CN601.J:VBUS_BOT|ESD601.D:P2",
+        "endpoints": [
+          "C603.C:P1",
+          "C604.C:P1",
+          "CN601.J:VBUS_BOT",
+          "ESD601.D:P2"
+        ],
+        "expected": "named:P_VBUS_USB2"
+      },
+      {
+        "actual": "anonymous:C605.C:P1|C606.C:P1|CN601.J:VBUS_TOP|ESD602.D:P2",
+        "endpoints": [
+          "C605.C:P1",
+          "C606.C:P1",
+          "CN601.J:VBUS_TOP",
+          "ESD602.D:P2"
+        ],
+        "expected": "named:P_VBUS_USB3"
+      }
+    ],
+    "reference_conflicts": [],
+    "reference_endpoint_count": 115,
+    "reference_nets": {
+      "named:GND": [
+        "B601.FB:P2",
+        "C603.C:P2",
+        "C604.C:P2",
+        "C605.C:P2",
+        "C606.C:P2",
+        "C607.C:P2",
+        "CN601.J:GND",
+        "ESD601.D:P1",
+        "ESD602.D:P1",
+        "ESD603.D:GND",
+        "ESD604.D:GND",
+        "ESD605.D:GND"
+      ],
+      "named:P_VBUS_USB2": [
+        "C603.C:P1",
+        "C604.C:P1",
+        "CN601.J:VBUS_BOT",
+        "ESD601.D:P2"
+      ],
+      "named:P_VBUS_USB3": [
+        "C605.C:P1",
+        "C606.C:P1",
+        "CN601.J:VBUS_TOP",
+        "ESD602.D:P2"
+      ],
+      "named:USB23_PE": [
+        "B601.FB:P1",
+        "C607.C:P1",
+        "CN601.J:SHIELD"
+      ],
+      "named:USB2_DN": [
+        "L601.FL:IN_A",
+        "R602.R:P1"
+      ],
+      "named:USB2_DN_L": [
+        "CN601.J:BOT.D.N",
+        "ESD603.D:CH2_A",
+        "ESD603.D:CH2_B",
+        "L601.FL:OUT_A",
+        "R602.R:P2"
+      ],
+      "named:USB2_DP": [
+        "L601.FL:IN_B",
+        "R601.R:P1"
+      ],
+      "named:USB2_DP_L": [
+        "CN601.J:BOT.D.P",
+        "ESD603.D:CH1_A",
+        "ESD603.D:CH1_B",
+        "L601.FL:OUT_B",
+        "R601.R:P2"
+      ],
+      "named:USB2_SSRXN": [
+        "L603.FL:IN_B",
+        "R606.R:P1"
+      ],
+      "named:USB2_SSRXN_L": [
+        "CN601.J:BOT.SSRX.N",
+        "ESD605.D:CH1_A",
+        "ESD605.D:CH1_B",
+        "L603.FL:OUT_B",
+        "R606.R:P2"
+      ],
+      "named:USB2_SSRXP": [
+        "L603.FL:IN_A",
+        "R605.R:P1"
+      ],
+      "named:USB2_SSRXP_L": [
+        "CN601.J:BOT.SSRX.P",
+        "ESD605.D:CH2_A",
+        "ESD605.D:CH2_B",
+        "L603.FL:OUT_A",
+        "R605.R:P2"
+      ],
+      "named:USB2_SSTXN": [
+        "C608.R:P1"
+      ],
+      "named:USB2_SSTXN_C": [
+        "C608.R:P2",
+        "L602.FL:IN_B",
+        "R604.R:P1"
+      ],
+      "named:USB2_SSTXN_L": [
+        "CN601.J:BOT.SSTX.N",
+        "ESD604.D:CH2_A",
+        "ESD604.D:CH2_B",
+        "L602.FL:OUT_B",
+        "R604.R:P2"
+      ],
+      "named:USB2_SSTXP": [
+        "C611.R:P1"
+      ],
+      "named:USB2_SSTXP_C": [
+        "C611.R:P2",
+        "L602.FL:IN_A",
+        "R603.R:P1"
+      ],
+      "named:USB2_SSTXP_L": [
+        "CN601.J:BOT.SSTX.P",
+        "ESD604.D:CH1_A",
+        "ESD604.D:CH1_B",
+        "L602.FL:OUT_A",
+        "R603.R:P2"
+      ],
+      "named:USB3_DN": [
+        "L604.FL:IN_A",
+        "R608.R:P1"
+      ],
+      "named:USB3_DN_L": [
+        "CN601.J:TOP.D.N",
+        "ESD603.D:CH4_A",
+        "ESD603.D:CH4_B",
+        "L604.FL:OUT_A",
+        "R608.R:P2"
+      ],
+      "named:USB3_DP": [
+        "L604.FL:IN_B",
+        "R607.R:P1"
+      ],
+      "named:USB3_DP_L": [
+        "CN601.J:TOP.D.P",
+        "ESD603.D:CH3_A",
+        "ESD603.D:CH3_B",
+        "L604.FL:OUT_B",
+        "R607.R:P2"
+      ],
+      "named:USB3_SSRXN": [
+        "L606.FL:IN_B",
+        "R612.R:P1"
+      ],
+      "named:USB3_SSRXN_L": [
+        "CN601.J:TOP.SSRX.N",
+        "ESD605.D:CH3_A",
+        "ESD605.D:CH3_B",
+        "L606.FL:OUT_B",
+        "R612.R:P2"
+      ],
+      "named:USB3_SSRXP": [
+        "L606.FL:IN_A",
+        "R611.R:P1"
+      ],
+      "named:USB3_SSRXP_L": [
+        "CN601.J:TOP.SSRX.P",
+        "ESD605.D:CH4_A",
+        "ESD605.D:CH4_B",
+        "L606.FL:OUT_A",
+        "R611.R:P2"
+      ],
+      "named:USB3_SSTXN": [
+        "C610.R:P1"
+      ],
+      "named:USB3_SSTXN_C": [
+        "C610.R:P2",
+        "L605.FL:IN_B",
+        "R610.R:P1"
+      ],
+      "named:USB3_SSTXN_L": [
+        "CN601.J:TOP.SSTX.N",
+        "ESD604.D:CH4_A",
+        "ESD604.D:CH4_B",
+        "L605.FL:OUT_B",
+        "R610.R:P2"
+      ],
+      "named:USB3_SSTXP": [
+        "C609.R:P1"
+      ],
+      "named:USB3_SSTXP_C": [
+        "C609.R:P2",
+        "L605.FL:IN_A",
+        "R609.R:P1"
+      ],
+      "named:USB3_SSTXP_L": [
+        "CN601.J:TOP.SSTX.P",
+        "ESD604.D:CH3_A",
+        "ESD604.D:CH3_B",
+        "L605.FL:OUT_A",
+        "R609.R:P2"
+      ]
+    },
+    "topology_extra_in_local": [],
+    "topology_missing_from_local": []
+  },
+  "identical": false,
+  "normalizations": [
+    "Registry leaf paths map to their sheet-instance reference prefixes",
+    "Repeated CN601 units are merged into one component",
+    "Connector, choke, and ESD imported pin names map to registry interfaces",
+    "Repeated physical ground pins are coalesced to one module-level GND endpoint",
+    "Unpolarized two-pin passive orientation is ignored",
+    "One leading KiCad root-scope slash is removed from named nets",
+    "A secondary topology result aliases C609/C612 by electrical role",
+    "UUIDs, placement, graphics, and property ordering are ignored"
+  ],
+  "packages_and_descriptions": {
+    "description_convention": "The registry establishes BOM descriptions, audited separately, but does not establish project-specific footprint codes such as R0402",
+    "documented_component_package_differences": [
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_documented_package": "692141030100-THT",
+        "path": "CN601.J"
+      },
+      {
+        "actual_footprint": "Diode_SMD:D_SOD-923",
+        "actual_normalized_package": "Diode_SMD:D_SOD-923",
+        "expected_documented_package": "0603",
+        "path": "ESD601.D"
+      },
+      {
+        "actual_footprint": "Diode_SMD:D_SOD-923",
+        "actual_normalized_package": "Diode_SMD:D_SOD-923",
+        "expected_documented_package": "0603",
+        "path": "ESD602.D"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_documented_package": "0805",
+        "path": "L601.FL"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_documented_package": "0805",
+        "path": "L602.FL"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_documented_package": "0805",
+        "path": "L603.FL"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_documented_package": "0805",
+        "path": "L604.FL"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_documented_package": "0805",
+        "path": "L605.FL"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_documented_package": "0805",
+        "path": "L606.FL"
+      }
+    ],
+    "formal_bom_package_differences": [
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0603",
+        "path": "B601.FB"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0805",
+        "path": "C603.C"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "C604.C"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "C605.C"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0805",
+        "path": "C606.C"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "C607.C"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "C608.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "C609.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "C611.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R601.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R602.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R603.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R604.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R605.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R606.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R607.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R608.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R609.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R610.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R611.R"
+      },
+      {
+        "actual_footprint": "",
+        "actual_normalized_package": null,
+        "expected_registry_package": "0402",
+        "path": "R612.R"
+      }
+    ]
+  },
+  "reference_designators": {
+    "checked_count": 30,
+    "differences": [],
+    "identity_source": "KiCad Reference, because USB3.kicad_sch has no placed Path properties"
+  },
+  "schema_version": 1,
+  "source_file_unchanged": true,
+  "status": "different",
+  "summary": {
+    "all_net_names_present": false,
+    "component_difference_count": 38,
+    "description_difference_count": 30,
+    "documented_package_difference_count": 9,
+    "formal_package_difference_count": 21,
+    "functional_topology_identical": true,
+    "hard_difference_count": 108,
+    "net_name_difference_count": 2,
+    "reference_designator_difference_count": 0,
+    "strict_topology_difference_count": 8
+  },
+  "target": "/Users/colton/Desktop/smarc_pcie/USB3.kicad_sch",
+  "target_sha256": "9c088f9e9c37bd2df8f5ae3c530607a2dcfe8a7bac545e5c5df4451429177845"
+}

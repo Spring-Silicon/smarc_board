@@ -37271,10 +37271,6 @@
 		)
 		(instances
 			(project "smarc_pcie"
-				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
-					(reference "J4")
-					(unit 2)
-				)
 				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3/fb9fdc01-da30-4344-a6ea-55b5a2b3e67a"
 					(reference "J4")
 					(unit 2)
@@ -38300,10 +38296,6 @@
 		)
 		(instances
 			(project "smarc_pcie"
-				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
-					(reference "J4")
-					(unit 7)
-				)
 				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3/fb9fdc01-da30-4344-a6ea-55b5a2b3e67a"
 					(reference "J4")
 					(unit 7)
@@ -39329,10 +39321,6 @@
 		)
 		(instances
 			(project "smarc_pcie"
-				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
-					(reference "J4")
-					(unit 5)
-				)
 				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3/fb9fdc01-da30-4344-a6ea-55b5a2b3e67a"
 					(reference "J4")
 					(unit 5)
@@ -40358,10 +40346,6 @@
 		)
 		(instances
 			(project "smarc_pcie"
-				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
-					(reference "J4")
-					(unit 1)
-				)
 				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3/fb9fdc01-da30-4344-a6ea-55b5a2b3e67a"
 					(reference "J4")
 					(unit 1)
@@ -41387,10 +41371,6 @@
 		)
 		(instances
 			(project "smarc_pcie"
-				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
-					(reference "J4")
-					(unit 3)
-				)
 				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3/fb9fdc01-da30-4344-a6ea-55b5a2b3e67a"
 					(reference "J4")
 					(unit 3)
@@ -42416,10 +42396,6 @@
 		)
 		(instances
 			(project "smarc_pcie"
-				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3"
-					(reference "J4")
-					(unit 6)
-				)
 				(path "/c081980d-49b2-44a7-8b5b-5f80549301c3/fb9fdc01-da30-4344-a6ea-55b5a2b3e67a"
 					(reference "J4")
 					(unit 6)
